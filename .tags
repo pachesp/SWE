@@ -1,0 +1,1595 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDV	src/solvers/SIMD_DEFINITIONS.hpp	112;"	d
+ADDV	src/solvers/SIMD_DEFINITIONS.hpp	31;"	d
+ADDV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	112;"	d
+ADDV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	31;"	d
+ANDNOTV_R	src/solvers/SIMD_DEFINITIONS.hpp	164;"	d
+ANDNOTV_R	src/solvers/SIMD_DEFINITIONS.hpp	61;"	d
+ANDNOTV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	164;"	d
+ANDNOTV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	61;"	d
+ANDV_R	src/solvers/SIMD_DEFINITIONS.hpp	157;"	d
+ANDV_R	src/solvers/SIMD_DEFINITIONS.hpp	55;"	d
+ANDV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	157;"	d
+ANDV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	55;"	d
+AUGRIE_CUDA_HPP_	src/solvers/AugRieCUDA.h	73;"	d
+AUGRIE_CUDA_HPP_	submodules/swe_solvers/src/solver/AugRieCUDA.h	73;"	d
+AUGRIE_FUN_HPP	src/solvers/AugRieFun.hpp	77;"	d
+AUGRIE_FUN_HPP	submodules/swe_solvers/src/solver/AugRieFun.hpp	77;"	d
+AUGRIE_HPP_	src/solvers/AugRie.hpp	69;"	d
+AUGRIE_HPP_	submodules/swe_solvers/src/solver/AugRie.hpp	69;"	d
+AUGRIE_SIMD_HPP_	src/solvers/AugRie_SIMD.hpp	73;"	d
+AUGRIE_SIMD_HPP_	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	73;"	d
+Args	src/tools/args.hh	/^	Args(const std::string &description = "", bool addHelp = true)$/;"	f	class:tools::Args
+Args	src/tools/args.hh	/^class Args$/;"	c	namespace:tools
+Argument	src/tools/args.hh	/^	enum Argument$/;"	g	class:tools::Args
+AugRie	src/solvers/AugRie.hpp	/^    AugRie(	T i_dryTolerance =                  (T) 0.01,$/;"	f	class:solver::AugRie
+AugRie	src/solvers/AugRie.hpp	/^template <typename T> class solver::AugRie: public WavePropagation<T> {$/;"	c	class:solver
+AugRie	submodules/swe_solvers/src/solver/AugRie.hpp	/^    AugRie(	T i_dryTolerance =                  (T) 0.01,$/;"	f	class:solver::AugRie
+AugRie	submodules/swe_solvers/src/solver/AugRie.hpp	/^template <typename T> class solver::AugRie: public WavePropagation<T> {$/;"	c	class:solver
+AugRieFun	src/solvers/AugRieFun.hpp	/^	AugRieFun(real i_dryTol = (real) 100,$/;"	f	class:solver::AugRieFun
+AugRieFun	src/solvers/AugRieFun.hpp	/^class AugRieFun$/;"	c	namespace:solver
+AugRieFun	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^	AugRieFun(real i_dryTol = (real) 100,$/;"	f	class:solver::AugRieFun
+AugRieFun	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^class AugRieFun$/;"	c	namespace:solver
+AugRie_SIMD	src/solvers/AugRie_SIMD.hpp	/^	AugRie_SIMD ($/;"	f	class:solver::AugRie_SIMD
+AugRie_SIMD	src/solvers/AugRie_SIMD.hpp	/^class solver::AugRie_SIMD : public WavePropagation<real> {$/;"	c	class:solver
+AugRie_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	AugRie_SIMD ($/;"	f	class:solver::AugRie_SIMD
+AugRie_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^class solver::AugRie_SIMD : public WavePropagation<real> {$/;"	c	class:solver
+BLENDV	src/solvers/SIMD_DEFINITIONS.hpp	166;"	d
+BLENDV	src/solvers/SIMD_DEFINITIONS.hpp	63;"	d
+BLENDV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	166;"	d
+BLENDV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	63;"	d
+BLENDV_I	src/solvers/SIMD_DEFINITIONS.hpp	167;"	d
+BLENDV_I	src/solvers/SIMD_DEFINITIONS.hpp	64;"	d
+BLENDV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	167;"	d
+BLENDV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	64;"	d
+BND_BOTTOM	src/scenarios/SWE_Scenario.hh	/^   BND_LEFT, BND_RIGHT, BND_BOTTOM, BND_TOP$/;"	e	enum:BoundaryEdge
+BND_LEFT	src/scenarios/SWE_Scenario.hh	/^   BND_LEFT, BND_RIGHT, BND_BOTTOM, BND_TOP$/;"	e	enum:BoundaryEdge
+BND_RIGHT	src/scenarios/SWE_Scenario.hh	/^   BND_LEFT, BND_RIGHT, BND_BOTTOM, BND_TOP$/;"	e	enum:BoundaryEdge
+BND_TOP	src/scenarios/SWE_Scenario.hh	/^   BND_LEFT, BND_RIGHT, BND_BOTTOM, BND_TOP$/;"	e	enum:BoundaryEdge
+BoundaryEdge	src/scenarios/SWE_Scenario.hh	/^typedef enum BoundaryEdge {$/;"	g
+BoundaryEdge	src/scenarios/SWE_Scenario.hh	/^} BoundaryEdge;$/;"	t	typeref:enum:BoundaryEdge
+BoundarySize	src/writer/Writer.hh	/^struct io::BoundarySize$/;"	s	class:io
+BoundaryType	src/scenarios/SWE_Scenario.hh	/^typedef enum BoundaryType {$/;"	g
+BoundaryType	src/scenarios/SWE_Scenario.hh	/^} BoundaryType;$/;"	t	typeref:enum:BoundaryType
+Bx	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    Float2D Bx;$/;"	m	class:SWE_RusanovBlock
+Bxd	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* Bxd;$/;"	m	class:SWE_RusanovBlockCUDA
+By	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    Float2D By;$/;"	m	class:SWE_RusanovBlock
+Byd	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* Byd;$/;"	m	class:SWE_RusanovBlockCUDA
+CAMERA_H	src/opengl/camera.h	2;"	d
+CAST_INT_TO_REAL_V	src/solvers/SIMD_DEFINITIONS.hpp	191;"	d
+CAST_INT_TO_REAL_V	src/solvers/SIMD_DEFINITIONS.hpp	68;"	d
+CAST_INT_TO_REAL_V	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	191;"	d
+CAST_INT_TO_REAL_V	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	68;"	d
+CAST_REAL_TO_INT_V	src/solvers/SIMD_DEFINITIONS.hpp	192;"	d
+CAST_REAL_TO_INT_V	src/solvers/SIMD_DEFINITIONS.hpp	69;"	d
+CAST_REAL_TO_INT_V	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	192;"	d
+CAST_REAL_TO_INT_V	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	69;"	d
+CMP_EQ_I	src/solvers/SIMD_DEFINITIONS.hpp	/^	static inline __m256i CMP_EQ_I(const __m256i a, const __m256i b)$/;"	f
+CMP_EQ_I	src/solvers/SIMD_DEFINITIONS.hpp	52;"	d
+CMP_EQ_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	static inline __m256i CMP_EQ_I(const __m256i a, const __m256i b)$/;"	f
+CMP_EQ_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	52;"	d
+CMP_EQ_R	src/solvers/SIMD_DEFINITIONS.hpp	133;"	d
+CMP_EQ_R	src/solvers/SIMD_DEFINITIONS.hpp	53;"	d
+CMP_EQ_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	133;"	d
+CMP_EQ_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	53;"	d
+CMP_GE	src/solvers/SIMD_DEFINITIONS.hpp	131;"	d
+CMP_GE	src/solvers/SIMD_DEFINITIONS.hpp	50;"	d
+CMP_GE	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	131;"	d
+CMP_GE	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	50;"	d
+CMP_GT	src/solvers/SIMD_DEFINITIONS.hpp	130;"	d
+CMP_GT	src/solvers/SIMD_DEFINITIONS.hpp	49;"	d
+CMP_GT	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	130;"	d
+CMP_GT	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	49;"	d
+CMP_LE	src/solvers/SIMD_DEFINITIONS.hpp	129;"	d
+CMP_LE	src/solvers/SIMD_DEFINITIONS.hpp	48;"	d
+CMP_LE	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	129;"	d
+CMP_LE	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	48;"	d
+CMP_LT	src/solvers/SIMD_DEFINITIONS.hpp	128;"	d
+CMP_LT	src/solvers/SIMD_DEFINITIONS.hpp	47;"	d
+CMP_LT	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	128;"	d
+CMP_LT	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	47;"	d
+COMPONENTS_HPP_	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	21;"	d
+CONNECT	src/scenarios/SWE_Scenario.hh	/^   OUTFLOW, WALL, INFLOW, CONNECT, PASSIVE$/;"	e	enum:BoundaryType
+CONTROLLER_H	src/opengl/controller.h	2;"	d
+COSTS_ADDS	src/solvers/SIMD_COSTS.hpp	22;"	d
+COSTS_ADDS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	22;"	d
+COSTS_ADDV	src/solvers/SIMD_COSTS.hpp	39;"	d
+COSTS_ADDV	src/solvers/SIMD_COSTS.hpp	79;"	d
+COSTS_ADDV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	39;"	d
+COSTS_ADDV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	79;"	d
+COSTS_ANDNOTV_R	src/solvers/SIMD_COSTS.hpp	105;"	d
+COSTS_ANDNOTV_R	src/solvers/SIMD_COSTS.hpp	66;"	d
+COSTS_ANDNOTV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	105;"	d
+COSTS_ANDNOTV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	66;"	d
+COSTS_ANDS	src/solvers/SIMD_COSTS.hpp	33;"	d
+COSTS_ANDS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	33;"	d
+COSTS_ANDV_R	src/solvers/SIMD_COSTS.hpp	101;"	d
+COSTS_ANDV_R	src/solvers/SIMD_COSTS.hpp	62;"	d
+COSTS_ANDV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	101;"	d
+COSTS_ANDV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	62;"	d
+COSTS_BLENDV	src/solvers/SIMD_COSTS.hpp	107;"	d
+COSTS_BLENDV	src/solvers/SIMD_COSTS.hpp	68;"	d
+COSTS_BLENDV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	107;"	d
+COSTS_BLENDV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	68;"	d
+COSTS_BLENDV_I	src/solvers/SIMD_COSTS.hpp	108;"	d
+COSTS_BLENDV_I	src/solvers/SIMD_COSTS.hpp	69;"	d
+COSTS_BLENDV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	108;"	d
+COSTS_BLENDV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	69;"	d
+COSTS_CMPS	src/solvers/SIMD_COSTS.hpp	31;"	d
+COSTS_CMPS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	31;"	d
+COSTS_CMP_EQ_I	src/solvers/SIMD_COSTS.hpp	60;"	d
+COSTS_CMP_EQ_I	src/solvers/SIMD_COSTS.hpp	99;"	d
+COSTS_CMP_EQ_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	60;"	d
+COSTS_CMP_EQ_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	99;"	d
+COSTS_CMP_GE	src/solvers/SIMD_COSTS.hpp	58;"	d
+COSTS_CMP_GE	src/solvers/SIMD_COSTS.hpp	98;"	d
+COSTS_CMP_GE	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	58;"	d
+COSTS_CMP_GE	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	98;"	d
+COSTS_CMP_GT	src/solvers/SIMD_COSTS.hpp	57;"	d
+COSTS_CMP_GT	src/solvers/SIMD_COSTS.hpp	97;"	d
+COSTS_CMP_GT	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	57;"	d
+COSTS_CMP_GT	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	97;"	d
+COSTS_CMP_LE	src/solvers/SIMD_COSTS.hpp	56;"	d
+COSTS_CMP_LE	src/solvers/SIMD_COSTS.hpp	96;"	d
+COSTS_CMP_LE	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	56;"	d
+COSTS_CMP_LE	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	96;"	d
+COSTS_CMP_LT	src/solvers/SIMD_COSTS.hpp	55;"	d
+COSTS_CMP_LT	src/solvers/SIMD_COSTS.hpp	95;"	d
+COSTS_CMP_LT	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	55;"	d
+COSTS_CMP_LT	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	95;"	d
+COSTS_DIVS	src/solvers/SIMD_COSTS.hpp	25;"	d
+COSTS_DIVS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	25;"	d
+COSTS_DIVV	src/solvers/SIMD_COSTS.hpp	42;"	d
+COSTS_DIVV	src/solvers/SIMD_COSTS.hpp	82;"	d
+COSTS_DIVV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	42;"	d
+COSTS_DIVV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	82;"	d
+COSTS_FABS	src/solvers/SIMD_COSTS.hpp	112;"	d
+COSTS_FABS	src/solvers/SIMD_COSTS.hpp	73;"	d
+COSTS_FABS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	112;"	d
+COSTS_FABS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	73;"	d
+COSTS_FABSS	src/solvers/SIMD_COSTS.hpp	36;"	d
+COSTS_FABSS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	36;"	d
+COSTS_LOADU	src/solvers/SIMD_COSTS.hpp	45;"	d
+COSTS_LOADU	src/solvers/SIMD_COSTS.hpp	85;"	d
+COSTS_LOADU	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	45;"	d
+COSTS_LOADU	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	85;"	d
+COSTS_MAXS	src/solvers/SIMD_COSTS.hpp	28;"	d
+COSTS_MAXS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	28;"	d
+COSTS_MAXV	src/solvers/SIMD_COSTS.hpp	52;"	d
+COSTS_MAXV	src/solvers/SIMD_COSTS.hpp	92;"	d
+COSTS_MAXV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	52;"	d
+COSTS_MAXV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	92;"	d
+COSTS_MINS	src/solvers/SIMD_COSTS.hpp	29;"	d
+COSTS_MINS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	29;"	d
+COSTS_MINV	src/solvers/SIMD_COSTS.hpp	53;"	d
+COSTS_MINV	src/solvers/SIMD_COSTS.hpp	93;"	d
+COSTS_MINV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	53;"	d
+COSTS_MINV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	93;"	d
+COSTS_MOVEMASK	src/solvers/SIMD_COSTS.hpp	109;"	d
+COSTS_MOVEMASK	src/solvers/SIMD_COSTS.hpp	70;"	d
+COSTS_MOVEMASK	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	109;"	d
+COSTS_MOVEMASK	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	70;"	d
+COSTS_MULS	src/solvers/SIMD_COSTS.hpp	24;"	d
+COSTS_MULS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	24;"	d
+COSTS_MULV	src/solvers/SIMD_COSTS.hpp	41;"	d
+COSTS_MULV	src/solvers/SIMD_COSTS.hpp	81;"	d
+COSTS_MULV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	41;"	d
+COSTS_MULV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	81;"	d
+COSTS_NOTV_I	src/solvers/SIMD_COSTS.hpp	114;"	d
+COSTS_NOTV_I	src/solvers/SIMD_COSTS.hpp	75;"	d
+COSTS_NOTV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	114;"	d
+COSTS_NOTV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	75;"	d
+COSTS_NOTV_R	src/solvers/SIMD_COSTS.hpp	113;"	d
+COSTS_NOTV_R	src/solvers/SIMD_COSTS.hpp	74;"	d
+COSTS_NOTV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	113;"	d
+COSTS_NOTV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	74;"	d
+COSTS_ORS	src/solvers/SIMD_COSTS.hpp	34;"	d
+COSTS_ORS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	34;"	d
+COSTS_ORV_I	src/solvers/SIMD_COSTS.hpp	104;"	d
+COSTS_ORV_I	src/solvers/SIMD_COSTS.hpp	65;"	d
+COSTS_ORV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	104;"	d
+COSTS_ORV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	65;"	d
+COSTS_ORV_R	src/solvers/SIMD_COSTS.hpp	102;"	d
+COSTS_ORV_R	src/solvers/SIMD_COSTS.hpp	63;"	d
+COSTS_ORV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	102;"	d
+COSTS_ORV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	63;"	d
+COSTS_SETV_I	src/solvers/SIMD_COSTS.hpp	48;"	d
+COSTS_SETV_I	src/solvers/SIMD_COSTS.hpp	88;"	d
+COSTS_SETV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	48;"	d
+COSTS_SETV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	88;"	d
+COSTS_SETV_R	src/solvers/SIMD_COSTS.hpp	47;"	d
+COSTS_SETV_R	src/solvers/SIMD_COSTS.hpp	87;"	d
+COSTS_SETV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	47;"	d
+COSTS_SETV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	87;"	d
+COSTS_SHIFT_LEFT	src/solvers/SIMD_COSTS.hpp	110;"	d
+COSTS_SHIFT_LEFT	src/solvers/SIMD_COSTS.hpp	71;"	d
+COSTS_SHIFT_LEFT	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	110;"	d
+COSTS_SHIFT_LEFT	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	71;"	d
+COSTS_SQRTS	src/solvers/SIMD_COSTS.hpp	26;"	d
+COSTS_SQRTS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	26;"	d
+COSTS_SQRTV	src/solvers/SIMD_COSTS.hpp	43;"	d
+COSTS_SQRTV	src/solvers/SIMD_COSTS.hpp	83;"	d
+COSTS_SQRTV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	43;"	d
+COSTS_SQRTV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	83;"	d
+COSTS_STOREU	src/solvers/SIMD_COSTS.hpp	46;"	d
+COSTS_STOREU	src/solvers/SIMD_COSTS.hpp	86;"	d
+COSTS_STOREU	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	46;"	d
+COSTS_STOREU	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	86;"	d
+COSTS_SUBS	src/solvers/SIMD_COSTS.hpp	23;"	d
+COSTS_SUBS	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	23;"	d
+COSTS_SUBV	src/solvers/SIMD_COSTS.hpp	40;"	d
+COSTS_SUBV	src/solvers/SIMD_COSTS.hpp	80;"	d
+COSTS_SUBV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	40;"	d
+COSTS_SUBV	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	80;"	d
+COSTS_XORV_R	src/solvers/SIMD_COSTS.hpp	103;"	d
+COSTS_XORV_R	src/solvers/SIMD_COSTS.hpp	64;"	d
+COSTS_XORV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	103;"	d
+COSTS_XORV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	64;"	d
+COSTS_ZEROV_I	src/solvers/SIMD_COSTS.hpp	50;"	d
+COSTS_ZEROV_I	src/solvers/SIMD_COSTS.hpp	90;"	d
+COSTS_ZEROV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	50;"	d
+COSTS_ZEROV_I	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	90;"	d
+COSTS_ZEROV_R	src/solvers/SIMD_COSTS.hpp	49;"	d
+COSTS_ZEROV_R	src/solvers/SIMD_COSTS.hpp	89;"	d
+COSTS_ZEROV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	49;"	d
+COSTS_ZEROV_R	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	89;"	d
+CUDANVCCSharedObjectEmitter	CudaTool.py	/^def CUDANVCCSharedObjectEmitter(target, source, env):$/;"	f
+CUDANVCCStaticObjectEmitter	CudaTool.py	/^def CUDANVCCStaticObjectEmitter(target, source, env):$/;"	f
+CUDAScanner	CudaTool.py	/^CUDAScanner = SCons.Scanner.C.CScanner()$/;"	v
+Camera	src/opengl/camera.cpp	/^Camera::Camera(const char* window_title)$/;"	f	class:Camera
+Camera	src/opengl/camera.h	/^class Camera {$/;"	c
+ComponentsTest	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^ComponentsTest::ComponentsTest():$/;"	f	class:ComponentsTest
+ComponentsTest	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^class ComponentsTest {$/;"	c
+Controller	src/opengl/controller.cpp	/^Controller::Controller(Simulation* sim, Visualization* vis) {$/;"	f	class:Controller
+Controller	src/opengl/controller.h	/^class Controller {$/;"	c
+DIVV	src/solvers/SIMD_DEFINITIONS.hpp	115;"	d
+DIVV	src/solvers/SIMD_DEFINITIONS.hpp	34;"	d
+DIVV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	115;"	d
+DIVV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	34;"	d
+DrawBathymetry	src/opengl/visualization.cpp	/^void Visualization::DrawBathymetry() {$/;"	f	class:Visualization
+DrawWaterSurface	src/opengl/visualization.cpp	/^void Visualization::DrawWaterSurface()$/;"	f	class:Visualization
+DryDry	src/solvers/AugRieCUDA.h	/^const integer DryDry = 0;$/;"	v
+DryDry	src/solvers/AugRieFun.hpp	/^const int DryDry = 0;$/;"	v
+DryDry	src/solvers/AugRie_SIMD.hpp	/^	static const integer DryDry = 0;$/;"	m	class:solver::AugRie_SIMD
+DryDry	src/solvers/WavePropagation.hpp	/^      DryDry,               \/**< Both cells are dry. *\/$/;"	e	enum:solver::WavePropagation::WetDryState
+DryDry	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer DryDry = 0;$/;"	v
+DryDry	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int DryDry = 0;$/;"	v
+DryDry	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer DryDry = 0;$/;"	m	class:solver::AugRie_SIMD
+DryDry	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^      DryDry,               \/**< Both cells are dry. *\/$/;"	e	enum:solver::WavePropagation::WetDryState
+DryDry_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector DryDry_V;$/;"	m	class:solver::AugRie_SIMD
+DryDry_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector DryDry_V;$/;"	m	class:solver::AugRie_SIMD
+DrySingleRarefaction	src/solvers/AugRie.hpp	/^      DrySingleRarefaction,  \/**< 1st wave family: contact discontinuity; 2nd wave family: rarefaction. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+DrySingleRarefaction	src/solvers/AugRieCUDA.h	/^const integer DrySingleRarefaction = 0;$/;"	v
+DrySingleRarefaction	src/solvers/AugRieFun.hpp	/^const int DrySingleRarefaction = 0;$/;"	v
+DrySingleRarefaction	src/solvers/AugRie_SIMD.hpp	/^	static const integer DrySingleRarefaction = SHIFT_SIGN_RIGHT(5);$/;"	m	class:solver::AugRie_SIMD
+DrySingleRarefaction	submodules/swe_solvers/src/solver/AugRie.hpp	/^      DrySingleRarefaction,  \/**< 1st wave family: contact discontinuity; 2nd wave family: rarefaction. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+DrySingleRarefaction	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer DrySingleRarefaction = 0;$/;"	v
+DrySingleRarefaction	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int DrySingleRarefaction = 0;$/;"	v
+DrySingleRarefaction	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer DrySingleRarefaction = SHIFT_SIGN_RIGHT(5);$/;"	m	class:solver::AugRie_SIMD
+DrySingleRarefaction_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector DrySingleRarefaction_V;$/;"	m	class:solver::AugRie_SIMD
+DrySingleRarefaction_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector DrySingleRarefaction_V;$/;"	m	class:solver::AugRie_SIMD
+DryWetInundation	src/solvers/AugRieCUDA.h	/^const integer DryWetInundation = 5;$/;"	v
+DryWetInundation	src/solvers/AugRieFun.hpp	/^const int DryWetInundation = 5;$/;"	v
+DryWetInundation	src/solvers/AugRie_SIMD.hpp	/^	static const integer DryWetInundation = SHIFT_SIGN_RIGHT(5);$/;"	m	class:solver::AugRie_SIMD
+DryWetInundation	src/solvers/WavePropagation.hpp	/^      DryWetInundation,     \/**< 1st cell: dry, 2nd cell: wet. 1st cell lies lower than the 2nd one. *\/$/;"	e	enum:solver::WavePropagation::WetDryState
+DryWetInundation	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer DryWetInundation = 5;$/;"	v
+DryWetInundation	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int DryWetInundation = 5;$/;"	v
+DryWetInundation	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer DryWetInundation = SHIFT_SIGN_RIGHT(5);$/;"	m	class:solver::AugRie_SIMD
+DryWetInundation	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^      DryWetInundation,     \/**< 1st cell: dry, 2nd cell: wet. 1st cell lies lower than the 2nd one. *\/$/;"	e	enum:solver::WavePropagation::WetDryState
+DryWetInundation_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector DryWetInundation_V;$/;"	m	class:solver::AugRie_SIMD
+DryWetInundation_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector DryWetInundation_V;$/;"	m	class:solver::AugRie_SIMD
+DryWetWall	src/solvers/AugRieCUDA.h	/^const integer DryWetWall = 6;$/;"	v
+DryWetWall	src/solvers/AugRieFun.hpp	/^const int DryWetWall = 6;$/;"	v
+DryWetWall	src/solvers/AugRie_SIMD.hpp	/^	static const integer DryWetWall = SHIFT_SIGN_RIGHT(6);$/;"	m	class:solver::AugRie_SIMD
+DryWetWall	src/solvers/WavePropagation.hpp	/^      DryWetWall,           \/**< 1st cell: dry, 2nd cell: wet. 1st cell lies higher than the 2nd one.$/;"	e	enum:solver::WavePropagation::WetDryState
+DryWetWall	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer DryWetWall = 6;$/;"	v
+DryWetWall	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int DryWetWall = 6;$/;"	v
+DryWetWall	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer DryWetWall = SHIFT_SIGN_RIGHT(6);$/;"	m	class:solver::AugRie_SIMD
+DryWetWall	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^      DryWetWall,           \/**< 1st cell: dry, 2nd cell: wet. 1st cell lies higher than the 2nd one.$/;"	e	enum:solver::WavePropagation::WetDryState
+DryWetWallInundation	src/solvers/AugRieCUDA.h	/^const integer DryWetWallInundation = 7;$/;"	v
+DryWetWallInundation	src/solvers/AugRieFun.hpp	/^const int DryWetWallInundation = 7;$/;"	v
+DryWetWallInundation	src/solvers/AugRie_SIMD.hpp	/^	static const integer DryWetWallInundation = SHIFT_SIGN_RIGHT(7);$/;"	m	class:solver::AugRie_SIMD
+DryWetWallInundation	src/solvers/WavePropagation.hpp	/^      DryWetWallInundation  \/**< 1st cell: dry, 2nd cell: wet. 1st cell lies higher than the 2nd one.$/;"	e	enum:solver::WavePropagation::WetDryState
+DryWetWallInundation	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer DryWetWallInundation = 7;$/;"	v
+DryWetWallInundation	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int DryWetWallInundation = 7;$/;"	v
+DryWetWallInundation	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer DryWetWallInundation = SHIFT_SIGN_RIGHT(7);$/;"	m	class:solver::AugRie_SIMD
+DryWetWallInundation	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^      DryWetWallInundation  \/**< 1st cell: dry, 2nd cell: wet. 1st cell lies higher than the 2nd one.$/;"	e	enum:solver::WavePropagation::WetDryState
+DryWetWallInundation_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector DryWetWallInundation_V;$/;"	m	class:solver::AugRie_SIMD
+DryWetWallInundation_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector DryWetWallInundation_V;$/;"	m	class:solver::AugRie_SIMD
+DryWetWall_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector DryWetWall_V;$/;"	m	class:solver::AugRie_SIMD
+DryWetWall_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector DryWetWall_V;$/;"	m	class:solver::AugRie_SIMD
+Error	src/tools/args.hh	/^		Error,$/;"	e	enum:tools::Args::Result
+FABS	src/solvers/SIMD_DEFINITIONS.hpp	193;"	d
+FABS	src/solvers/SIMD_DEFINITIONS.hpp	70;"	d
+FABS	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	193;"	d
+FABS	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	70;"	d
+FLOAT32	src/solvers/AugRieCUDA.h	75;"	d
+FLOAT32	src/solvers/AugRie_SIMD.hpp	77;"	d
+FLOAT32	submodules/swe_solvers/src/solver/AugRieCUDA.h	75;"	d
+FLOAT32	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	77;"	d
+FLOAT64	src/solvers/AugRie_SIMD.hpp	76;"	d
+FLOAT64	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	76;"	d
+FWAVEVEC_HPP_	src/solvers/FWaveVec.hpp	50;"	d
+FWAVEVEC_HPP_	submodules/swe_solvers/src/solver/FWaveVec.hpp	50;"	d
+FWAVE_HPP_	src/solvers/FWave.hpp	54;"	d
+FWAVE_HPP_	submodules/swe_solvers/src/solver/FWave.hpp	54;"	d
+FWave	src/solvers/FWave.hpp	/^    FWave( T i_dryTolerance =  (T) 0.01,$/;"	f	class:solver::FWave
+FWave	src/solvers/FWave.hpp	/^template <typename T> class solver::FWave: public WavePropagation<T> {$/;"	c	class:solver
+FWave	submodules/swe_solvers/src/solver/FWave.hpp	/^    FWave( T i_dryTolerance =  (T) 0.01,$/;"	f	class:solver::FWave
+FWave	submodules/swe_solvers/src/solver/FWave.hpp	/^template <typename T> class solver::FWave: public WavePropagation<T> {$/;"	c	class:solver
+FWaveVec	src/solvers/FWaveVec.hpp	/^	FWaveVec(T i_dryTol = (T) 1.0,$/;"	f	class:solver::FWaveVec
+FWaveVec	src/solvers/FWaveVec.hpp	/^class FWaveVec$/;"	c	namespace:solver
+FWaveVec	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^	FWaveVec(T i_dryTol = (T) 1.0,$/;"	f	class:solver::FWaveVec
+FWaveVec	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^class FWaveVec$/;"	c	namespace:solver
+Fh	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    Float2D Fh;$/;"	m	class:SWE_RusanovBlock
+Fh	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    Float2D Fh; $/;"	m	class:SWE_RusanovBlockCUDA
+Fhd	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* Fhd;$/;"	m	class:SWE_RusanovBlockCUDA
+Fhu	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    Float2D Fhu;$/;"	m	class:SWE_RusanovBlock
+Fhu	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    Float2D Fhu;$/;"	m	class:SWE_RusanovBlockCUDA
+Fhud	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* Fhud;$/;"	m	class:SWE_RusanovBlockCUDA
+Fhv	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    Float2D Fhv;$/;"	m	class:SWE_RusanovBlock
+Fhv	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    Float2D Fhv;$/;"	m	class:SWE_RusanovBlockCUDA
+Fhvd	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* Fhvd;$/;"	m	class:SWE_RusanovBlockCUDA
+Float1D	src/tools/help.hh	/^	Float1D(float* _elem, int _rows, int _stride = 1) $/;"	f	class:Float1D
+Float1D	src/tools/help.hh	/^class Float1D$/;"	c
+Float2D	src/tools/help.hh	/^    Float2D(Float2D& _elem, bool shallowCopy):$/;"	f	class:Float2D
+Float2D	src/tools/help.hh	/^    Float2D(int _cols, int _rows, bool _allocateMemory = true):$/;"	f	class:Float2D
+Float2D	src/tools/help.hh	/^    Float2D(int _cols, int _rows, float* _elem):$/;"	f	class:Float2D
+Float2D	src/tools/help.hh	/^class Float2D {$/;"	c
+GRID_XSIZE	src/examples/swe_opengl.cpp	37;"	d	file:
+GRID_YSIZE	src/examples/swe_opengl.cpp	38;"	d	file:
+Gh	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    Float2D Gh;$/;"	m	class:SWE_RusanovBlock
+Gh	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    Float2D Gh; $/;"	m	class:SWE_RusanovBlockCUDA
+Ghd	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* Ghd;$/;"	m	class:SWE_RusanovBlockCUDA
+Ghu	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    Float2D Ghu;$/;"	m	class:SWE_RusanovBlock
+Ghu	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    Float2D Ghu;$/;"	m	class:SWE_RusanovBlockCUDA
+Ghud	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* Ghud;$/;"	m	class:SWE_RusanovBlockCUDA
+Ghv	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    Float2D Ghv;$/;"	m	class:SWE_RusanovBlock
+Ghv	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    Float2D Ghv;$/;"	m	class:SWE_RusanovBlockCUDA
+Ghvd	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* Ghvd;$/;"	m	class:SWE_RusanovBlockCUDA
+HYBRID_HPP_	src/solvers/Hybrid.hpp	37;"	d
+HYBRID_HPP_	submodules/swe_solvers/src/solver/Hybrid.hpp	37;"	d
+Help	src/tools/args.hh	/^		Help$/;"	e	enum:tools::Args::Result
+Hybrid	src/solvers/Hybrid.hpp	/^    Hybrid( T i_dryTolerance =                  (T) 0.01,$/;"	f	class:solver::Hybrid
+Hybrid	src/solvers/Hybrid.hpp	/^template <typename T> class solver::Hybrid {$/;"	c	class:solver
+Hybrid	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    Hybrid( T i_dryTolerance =                  (T) 0.01,$/;"	f	class:solver::Hybrid
+Hybrid	submodules/swe_solvers/src/solver/Hybrid.hpp	/^template <typename T> class solver::Hybrid {$/;"	c	class:solver
+INFLOW	src/scenarios/SWE_Scenario.hh	/^   OUTFLOW, WALL, INFLOW, CONNECT, PASSIVE$/;"	e	enum:BoundaryType
+LOADU	src/solvers/SIMD_DEFINITIONS.hpp	118;"	d
+LOADU	src/solvers/SIMD_DEFINITIONS.hpp	37;"	d
+LOADU	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	118;"	d
+LOADU	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	37;"	d
+LOGGER_HPP_	src/tools/Logger.hh	30;"	d
+Logger	src/tools/Logger.hh	/^    Logger( const int i_processRank = 0,$/;"	f	class:tools::Logger
+Logger	src/tools/Logger.hh	/^class tools::Logger {$/;"	c	class:tools
+MAXV	src/solvers/SIMD_DEFINITIONS.hpp	125;"	d
+MAXV	src/solvers/SIMD_DEFINITIONS.hpp	44;"	d
+MAXV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	125;"	d
+MAXV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	44;"	d
+MINV	src/solvers/SIMD_DEFINITIONS.hpp	126;"	d
+MINV	src/solvers/SIMD_DEFINITIONS.hpp	45;"	d
+MINV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	126;"	d
+MINV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	45;"	d
+MIN_TERM_SIZE	src/tools/ProgressBar.hh	/^	static const unsigned int MIN_TERM_SIZE = 80;$/;"	m	class:tools::ProgressBar
+MOVEMASK	src/solvers/SIMD_DEFINITIONS.hpp	168;"	d
+MOVEMASK	src/solvers/SIMD_DEFINITIONS.hpp	65;"	d
+MOVEMASK	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	168;"	d
+MOVEMASK	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	65;"	d
+MPI_INCLUDED	src/writer/NetCdfWriter.hh	38;"	d
+MPI_INCLUDED	src/writer/NetCdfWriter.hh	44;"	d
+MPI_INCLUDED_NETCDF	src/writer/NetCdfWriter.hh	39;"	d
+MPI_INCLUDED_NETCDF	src/writer/NetCdfWriter.hh	45;"	d
+MULV	src/solvers/SIMD_DEFINITIONS.hpp	114;"	d
+MULV	src/solvers/SIMD_DEFINITIONS.hpp	33;"	d
+MULV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	114;"	d
+MULV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	33;"	d
+NETCDFWRITER_HH_	src/writer/NetCdfWriter.hh	30;"	d
+NOTV_I	src/solvers/SIMD_DEFINITIONS.hpp	163;"	d
+NOTV_I	src/solvers/SIMD_DEFINITIONS.hpp	60;"	d
+NOTV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	163;"	d
+NOTV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	60;"	d
+NOTV_R	src/solvers/SIMD_DEFINITIONS.hpp	162;"	d
+NOTV_R	src/solvers/SIMD_DEFINITIONS.hpp	59;"	d
+NOTV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	162;"	d
+NOTV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	59;"	d
+NUMBER_OF_FWAVES	src/solvers/AugRieGeoClaw.hpp	38;"	d
+NUMBER_OF_FWAVES	submodules/swe_solvers/src/solver/AugRieGeoClaw.hpp	38;"	d
+NetCdfWriter	src/writer/NetCdfWriter.cpp	/^io::NetCdfWriter::NetCdfWriter( const std::string &i_baseName,$/;"	f	class:io::NetCdfWriter
+NetCdfWriter	src/writer/NetCdfWriter.hh	/^class io::NetCdfWriter : public io::Writer {$/;"	c	class:io
+No	src/tools/args.hh	/^		No = no_argument,$/;"	e	enum:tools::Args::Argument
+ORV_I	src/solvers/SIMD_DEFINITIONS.hpp	160;"	d
+ORV_I	src/solvers/SIMD_DEFINITIONS.hpp	58;"	d
+ORV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	160;"	d
+ORV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	58;"	d
+ORV_R	src/solvers/SIMD_DEFINITIONS.hpp	158;"	d
+ORV_R	src/solvers/SIMD_DEFINITIONS.hpp	56;"	d
+ORV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	158;"	d
+ORV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	56;"	d
+OUTFLOW	src/scenarios/SWE_Scenario.hh	/^   OUTFLOW, WALL, INFLOW, CONNECT, PASSIVE$/;"	e	enum:BoundaryType
+Optional	src/tools/args.hh	/^		Optional = optional_argument$/;"	e	enum:tools::Args::Argument
+PASSIVE	src/scenarios/SWE_Scenario.hh	/^   OUTFLOW, WALL, INFLOW, CONNECT, PASSIVE$/;"	e	enum:BoundaryType
+PROGRESSBAR_H	src/tools/ProgressBar.hh	29;"	d
+ProgressBar	src/tools/ProgressBar.hh	/^	ProgressBar(float totalWork = 1., int rank = 0)$/;"	f	class:tools::ProgressBar
+ProgressBar	src/tools/ProgressBar.hh	/^class ProgressBar$/;"	c	namespace:tools
+RarefactionRarefaction	src/solvers/AugRie.hpp	/^      RarefactionRarefaction \/**< 1st wave family: rarefaction; 2nd wave family: rarefaction. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+RarefactionRarefaction	src/solvers/AugRieCUDA.h	/^const integer RarefactionRarefaction = 5;$/;"	v
+RarefactionRarefaction	src/solvers/AugRieFun.hpp	/^const int RarefactionRarefaction = 5;$/;"	v
+RarefactionRarefaction	src/solvers/AugRie_SIMD.hpp	/^	static const integer RarefactionRarefaction = SHIFT_SIGN_RIGHT(2);$/;"	m	class:solver::AugRie_SIMD
+RarefactionRarefaction	submodules/swe_solvers/src/solver/AugRie.hpp	/^      RarefactionRarefaction \/**< 1st wave family: rarefaction; 2nd wave family: rarefaction. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+RarefactionRarefaction	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer RarefactionRarefaction = 5;$/;"	v
+RarefactionRarefaction	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int RarefactionRarefaction = 5;$/;"	v
+RarefactionRarefaction	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer RarefactionRarefaction = SHIFT_SIGN_RIGHT(2);$/;"	m	class:solver::AugRie_SIMD
+RarefactionRarefaction_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector RarefactionRarefaction_V;$/;"	m	class:solver::AugRie_SIMD
+RarefactionRarefaction_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector RarefactionRarefaction_V;$/;"	m	class:solver::AugRie_SIMD
+RarefactionShock	src/solvers/AugRie.hpp	/^      RarefactionShock,      \/**< 1st wave family: rarefaction; 2nd wave family: shock. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+RarefactionShock	src/solvers/AugRieCUDA.h	/^const integer RarefactionShock = 4;$/;"	v
+RarefactionShock	src/solvers/AugRieFun.hpp	/^const int RarefactionShock = 4;$/;"	v
+RarefactionShock	src/solvers/AugRie_SIMD.hpp	/^	static const integer RarefactionShock = SHIFT_SIGN_RIGHT(4);$/;"	m	class:solver::AugRie_SIMD
+RarefactionShock	submodules/swe_solvers/src/solver/AugRie.hpp	/^      RarefactionShock,      \/**< 1st wave family: rarefaction; 2nd wave family: shock. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+RarefactionShock	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer RarefactionShock = 4;$/;"	v
+RarefactionShock	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int RarefactionShock = 4;$/;"	v
+RarefactionShock	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer RarefactionShock = SHIFT_SIGN_RIGHT(4);$/;"	m	class:solver::AugRie_SIMD
+RarefactionShock_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector RarefactionShock_V;$/;"	m	class:solver::AugRie_SIMD
+RarefactionShock_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector RarefactionShock_V;$/;"	m	class:solver::AugRie_SIMD
+RenderMode	src/opengl/visualization.h	/^typedef enum RenderMode {$/;"	g
+RenderMode	src/opengl/visualization.h	/^} RenderMode;$/;"	t	typeref:enum:RenderMode
+Required	src/tools/args.hh	/^		Required = required_argument,$/;"	e	enum:tools::Args::Argument
+Result	src/tools/args.hh	/^	enum Result$/;"	g	class:tools::Args
+RiemannStructure	src/solvers/AugRie.hpp	/^    enum RiemannStructure {$/;"	g	class:solver::AugRie
+RiemannStructure	submodules/swe_solvers/src/solver/AugRie.hpp	/^    enum RiemannStructure {$/;"	g	class:solver::AugRie
+SCENARIO_COUNT	src/opengl/controller.h	27;"	d
+SCREEN_HEIGHT	src/examples/swe_opengl.cpp	35;"	d	file:
+SCREEN_WIDTH	src/examples/swe_opengl.cpp	34;"	d	file:
+SETV_I	src/solvers/SIMD_DEFINITIONS.hpp	121;"	d
+SETV_I	src/solvers/SIMD_DEFINITIONS.hpp	40;"	d
+SETV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	121;"	d
+SETV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	40;"	d
+SETV_R	src/solvers/SIMD_DEFINITIONS.hpp	120;"	d
+SETV_R	src/solvers/SIMD_DEFINITIONS.hpp	39;"	d
+SETV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	120;"	d
+SETV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	39;"	d
+SHADED	src/opengl/visualization.h	/^   SHADED, WIREFRAME, WATERSHADER$/;"	e	enum:RenderMode
+SHADER_H	src/opengl/shader.h	2;"	d
+SHIFT_LEFT	src/solvers/SIMD_DEFINITIONS.hpp	/^	static inline __m256i SHIFT_LEFT(const __m256i x, const integer y)$/;"	f
+SHIFT_LEFT	src/solvers/SIMD_DEFINITIONS.hpp	66;"	d
+SHIFT_LEFT	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	static inline __m256i SHIFT_LEFT(const __m256i x, const integer y)$/;"	f
+SHIFT_LEFT	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	66;"	d
+SHIFT_SIGN_RIGHT	src/solvers/SIMD_TYPES.hpp	47;"	d
+SHIFT_SIGN_RIGHT	src/solvers/SIMD_TYPES.hpp	54;"	d
+SHIFT_SIGN_RIGHT	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	47;"	d
+SHIFT_SIGN_RIGHT	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	54;"	d
+SIMD_COSTS_H	src/solvers/SIMD_COSTS.hpp	14;"	d
+SIMD_COSTS_H	submodules/swe_solvers/src/solver/SIMD_COSTS.hpp	14;"	d
+SIMD_DEFINITIONS_H	src/solvers/SIMD_DEFINITIONS.hpp	14;"	d
+SIMD_DEFINITIONS_H	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	14;"	d
+SIMD_TYPES_H	src/solvers/SIMD_TYPES.hpp	14;"	d
+SIMD_TYPES_H	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	14;"	d
+SIMULATION_H	src/opengl/simulation.h	2;"	d
+SQRTV	src/solvers/SIMD_DEFINITIONS.hpp	116;"	d
+SQRTV	src/solvers/SIMD_DEFINITIONS.hpp	35;"	d
+SQRTV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	116;"	d
+SQRTV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	35;"	d
+STOREU	src/solvers/SIMD_DEFINITIONS.hpp	119;"	d
+STOREU	src/solvers/SIMD_DEFINITIONS.hpp	38;"	d
+STOREU	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	119;"	d
+STOREU	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	38;"	d
+SUBV	src/solvers/SIMD_DEFINITIONS.hpp	113;"	d
+SUBV	src/solvers/SIMD_DEFINITIONS.hpp	32;"	d
+SUBV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	113;"	d
+SUBV	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	32;"	d
+SWEASAGISCENARIO_HPP_	src/scenarios/SWE_AsagiScenario.hh	30;"	d
+SWEASAGISCENARIO_VIS_HPP_	src/scenarios/SWE_AsagiScenario_vis.hh	29;"	d
+SWEWAVEPROPAGATIONBLOCKCUDAKERNELS_HH_	src/blocks/cuda/SWE_WavePropagationBlockCuda_kernels.hh	29;"	d
+SWEWAVEPROPAGATIONBLOCKCUDA_HH_	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	30;"	d
+SWEWAVEPROPAGATIONBLOCK_HH_	src/blocks/SWE_WavePropagationBlock.hh	31;"	d
+SWEWAVEPROPAGATIONBLOCK_SIMD_HH_	src/blocks/SWE_WavePropagationBlockSIMD.hh	30;"	d
+SWE_AsagiGrid	src/scenarios/SWE_AsagiScenario.hh	/^	SWE_AsagiGrid()$/;"	f	class:SWE_AsagiGrid
+SWE_AsagiGrid	src/scenarios/SWE_AsagiScenario.hh	/^class SWE_AsagiGrid$/;"	c
+SWE_AsagiJapanSmallVisInfo	src/scenarios/SWE_AsagiScenario_vis.hh	/^class SWE_AsagiJapanSmallVisInfo : public SWE_VisInfo$/;"	c
+SWE_AsagiScenario	src/scenarios/SWE_AsagiScenario.hh	/^   SWE_AsagiScenario ( const std::string i_bathymetryFile,$/;"	f	class:SWE_AsagiScenario
+SWE_AsagiScenario	src/scenarios/SWE_AsagiScenario.hh	/^class SWE_AsagiScenario: public SWE_Scenario {$/;"	c
+SWE_BathymetryDamBreakScenario	src/scenarios/SWE_simple_scenarios.hh	/^class SWE_BathymetryDamBreakScenario : public SWE_Scenario {$/;"	c
+SWE_BathymetryDamBreakVisInfo	src/scenarios/SWE_simple_scenarios_vis.hh	/^class SWE_BathymetryDamBreakVisInfo : public SWE_VisInfo {$/;"	c
+SWE_Block	src/blocks/SWE_Block.cpp	/^SWE_Block::SWE_Block(int l_nx, int l_ny,$/;"	f	class:SWE_Block
+SWE_Block	src/blocks/SWE_Block.hh	/^class SWE_Block {$/;"	c
+SWE_Block1D	src/blocks/SWE_Block.hh	/^    SWE_Block1D(const Float1D& _h, const Float1D& _hu, const Float1D& _hv)$/;"	f	struct:SWE_Block1D
+SWE_Block1D	src/blocks/SWE_Block.hh	/^    SWE_Block1D(float* _h, float* _hu, float* _hv, int _size, int _stride=1)$/;"	f	struct:SWE_Block1D
+SWE_Block1D	src/blocks/SWE_Block.hh	/^struct SWE_Block1D {$/;"	s
+SWE_BlockCUDA	src/blocks/cuda/SWE_BlockCUDA.hh	/^class SWE_BlockCUDA : public SWE_Block {$/;"	c
+SWE_RadialDamBreakScenario	src/scenarios/SWE_simple_scenarios.hh	/^class SWE_RadialDamBreakScenario : public SWE_Scenario {$/;"	c
+SWE_RusanovBlock	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^SWE_RusanovBlock::SWE_RusanovBlock(float _offsetX, float _offsetY) $/;"	f	class:SWE_RusanovBlock
+SWE_RusanovBlock	src/blocks/rusanov/SWE_RusanovBlock.hh	/^class SWE_RusanovBlock : public SWE_Block {$/;"	c
+SWE_RusanovBlockCUDA	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^class SWE_RusanovBlockCUDA : public SWE_BlockCUDA {$/;"	c
+SWE_Scenario	src/scenarios/SWE_Scenario.hh	/^class SWE_Scenario {$/;"	c
+SWE_SeaAtRestScenario	src/scenarios/SWE_simple_scenarios.hh	/^class SWE_SeaAtRestScenario : public SWE_Scenario {$/;"	c
+SWE_SplashingConeScenario	src/scenarios/SWE_simple_scenarios.hh	/^class SWE_SplashingConeScenario : public SWE_Scenario {$/;"	c
+SWE_SplashingPoolScenario	src/scenarios/SWE_simple_scenarios.hh	/^class SWE_SplashingPoolScenario : public SWE_Scenario {$/;"	c
+SWE_VisInfo	src/scenarios/SWE_VisInfo.hh	/^class SWE_VisInfo {$/;"	c
+SWE_WAVEACCUMULATION_BLOCK_HH_	src/blocks/SWE_WaveAccumulationBlock.hh	31;"	d
+SWE_WaveAccumulationBlock	src/blocks/SWE_WaveAccumulationBlock.cpp	/^SWE_WaveAccumulationBlock::SWE_WaveAccumulationBlock($/;"	f	class:SWE_WaveAccumulationBlock
+SWE_WaveAccumulationBlock	src/blocks/SWE_WaveAccumulationBlock.hh	/^class SWE_WaveAccumulationBlock: public SWE_Block {$/;"	c
+SWE_WavePropagationBlock	src/blocks/SWE_WavePropagationBlock.cpp	/^SWE_WavePropagationBlock::SWE_WavePropagationBlock (int l_nx, int l_ny, float l_dx, float l_dy) :$/;"	f	class:SWE_WavePropagationBlock
+SWE_WavePropagationBlock	src/blocks/SWE_WavePropagationBlock.hh	/^class SWE_WavePropagationBlock: public SWE_Block {$/;"	c
+SWE_WavePropagationBlockCuda	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^class SWE_WavePropagationBlockCuda: public SWE_BlockCUDA {$/;"	c
+SWE_WavePropagationBlockSIMD	src/blocks/SWE_WavePropagationBlockSIMD.cpp	/^SWE_WavePropagationBlockSIMD::SWE_WavePropagationBlockSIMD (int l_nx, int l_ny, float l_dx, float l_dy) :$/;"	f	class:SWE_WavePropagationBlockSIMD
+SWE_WavePropagationBlockSIMD	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^class SWE_WavePropagationBlockSIMD : public SWE_Block {$/;"	c
+Shader	src/opengl/shader.cpp	/^Shader::Shader(char const * vertexShaderFile, char const * fragmentShaderFile)$/;"	f	class:Shader
+Shader	src/opengl/shader.h	/^class Shader {$/;"	c
+ShockRarefaction	src/solvers/AugRie.hpp	/^      ShockRarefaction,      \/**< 1st wave family: shock; 2nd wave family: rarefaction. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+ShockRarefaction	src/solvers/AugRieCUDA.h	/^const integer ShockRarefaction = 3;$/;"	v
+ShockRarefaction	src/solvers/AugRieFun.hpp	/^const int ShockRarefaction = 3;$/;"	v
+ShockRarefaction	src/solvers/AugRie_SIMD.hpp	/^	static const integer ShockRarefaction = SHIFT_SIGN_RIGHT(3);$/;"	m	class:solver::AugRie_SIMD
+ShockRarefaction	submodules/swe_solvers/src/solver/AugRie.hpp	/^      ShockRarefaction,      \/**< 1st wave family: shock; 2nd wave family: rarefaction. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+ShockRarefaction	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer ShockRarefaction = 3;$/;"	v
+ShockRarefaction	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int ShockRarefaction = 3;$/;"	v
+ShockRarefaction	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer ShockRarefaction = SHIFT_SIGN_RIGHT(3);$/;"	m	class:solver::AugRie_SIMD
+ShockRarefaction_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector ShockRarefaction_V;$/;"	m	class:solver::AugRie_SIMD
+ShockRarefaction_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector ShockRarefaction_V;$/;"	m	class:solver::AugRie_SIMD
+ShockShock	src/solvers/AugRie.hpp	/^      ShockShock,            \/**< 1st wave family: shock; 2nd wave family: shock. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+ShockShock	src/solvers/AugRieCUDA.h	/^const integer ShockShock = 2;$/;"	v
+ShockShock	src/solvers/AugRieFun.hpp	/^const int ShockShock = 2;$/;"	v
+ShockShock	src/solvers/AugRie_SIMD.hpp	/^	static const integer ShockShock = SHIFT_SIGN_RIGHT(1);$/;"	m	class:solver::AugRie_SIMD
+ShockShock	submodules/swe_solvers/src/solver/AugRie.hpp	/^      ShockShock,            \/**< 1st wave family: shock; 2nd wave family: shock. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+ShockShock	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer ShockShock = 2;$/;"	v
+ShockShock	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int ShockShock = 2;$/;"	v
+ShockShock	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer ShockShock = SHIFT_SIGN_RIGHT(1);$/;"	m	class:solver::AugRie_SIMD
+ShockShock_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector ShockShock_V;$/;"	m	class:solver::AugRie_SIMD
+ShockShock_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector ShockShock_V;$/;"	m	class:solver::AugRie_SIMD
+Simulation	src/opengl/simulation.h	/^class Simulation {$/;"	c
+SingleRarefactionDry	src/solvers/AugRie.hpp	/^      SingleRarefactionDry,  \/**< 1st wave family: rarefaction; 2nd wave family: contact discontinuity. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+SingleRarefactionDry	src/solvers/AugRieCUDA.h	/^const integer SingleRarefactionDry = 1;$/;"	v
+SingleRarefactionDry	src/solvers/AugRieFun.hpp	/^const int SingleRarefactionDry = 1;$/;"	v
+SingleRarefactionDry	src/solvers/AugRie_SIMD.hpp	/^	static const integer SingleRarefactionDry = SHIFT_SIGN_RIGHT(6);$/;"	m	class:solver::AugRie_SIMD
+SingleRarefactionDry	submodules/swe_solvers/src/solver/AugRie.hpp	/^      SingleRarefactionDry,  \/**< 1st wave family: rarefaction; 2nd wave family: contact discontinuity. *\/$/;"	e	enum:solver::AugRie::RiemannStructure
+SingleRarefactionDry	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer SingleRarefactionDry = 1;$/;"	v
+SingleRarefactionDry	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int SingleRarefactionDry = 1;$/;"	v
+SingleRarefactionDry	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer SingleRarefactionDry = SHIFT_SIGN_RIGHT(6);$/;"	m	class:solver::AugRie_SIMD
+SingleRarefactionDry_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector SingleRarefactionDry_V;$/;"	m	class:solver::AugRie_SIMD
+SingleRarefactionDry_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector SingleRarefactionDry_V;$/;"	m	class:solver::AugRie_SIMD
+Success	src/tools/args.hh	/^		Success = 0,$/;"	e	enum:tools::Args::Result
+T	src/solvers/FWaveCuda.h	/^typedef float T;$/;"	t
+T	submodules/swe_solvers/src/solver/FWaveCuda.h	/^typedef float T;$/;"	t
+TEXT_H	src/opengl/text.h	21;"	d
+TILE_SIZE	src/blocks/cuda/SWE_BlockCUDA.hh	/^const int TILE_SIZE=16;$/;"	v
+TIME_SIZE	src/tools/ProgressBar.hh	/^	static const int TIME_SIZE = 8;$/;"	m	class:tools::ProgressBar
+TOOLS_ARGS_H	src/tools/args.hh	29;"	d
+Text	src/opengl/text.h	/^	Text()$/;"	f	class:Text
+Text	src/opengl/text.h	/^class Text$/;"	c
+VBO	src/opengl/vbo.h	/^	VBO()$/;"	f	class:VBO
+VBO	src/opengl/vbo.h	/^class VBO$/;"	c
+VBO_H	src/opengl/vbo.h	28;"	d
+VECTOR_AVX_FLOAT32	src/solvers/SIMD_TYPES.hpp	110;"	d
+VECTOR_AVX_FLOAT32	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	110;"	d
+VECTOR_AVX_FLOAT64	src/solvers/SIMD_TYPES.hpp	103;"	d
+VECTOR_AVX_FLOAT64	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	103;"	d
+VECTOR_FULL_MASK	src/solvers/SIMD_TYPES.hpp	104;"	d
+VECTOR_FULL_MASK	src/solvers/SIMD_TYPES.hpp	111;"	d
+VECTOR_FULL_MASK	src/solvers/SIMD_TYPES.hpp	84;"	d
+VECTOR_FULL_MASK	src/solvers/SIMD_TYPES.hpp	91;"	d
+VECTOR_FULL_MASK	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	104;"	d
+VECTOR_FULL_MASK	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	111;"	d
+VECTOR_FULL_MASK	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	84;"	d
+VECTOR_FULL_MASK	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	91;"	d
+VECTOR_LENGTH	src/solvers/SIMD_TYPES.hpp	102;"	d
+VECTOR_LENGTH	src/solvers/SIMD_TYPES.hpp	109;"	d
+VECTOR_LENGTH	src/solvers/SIMD_TYPES.hpp	118;"	d
+VECTOR_LENGTH	src/solvers/SIMD_TYPES.hpp	82;"	d
+VECTOR_LENGTH	src/solvers/SIMD_TYPES.hpp	89;"	d
+VECTOR_LENGTH	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	102;"	d
+VECTOR_LENGTH	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	109;"	d
+VECTOR_LENGTH	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	118;"	d
+VECTOR_LENGTH	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	82;"	d
+VECTOR_LENGTH	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	89;"	d
+VECTOR_NOVEC	src/solvers/SIMD_TYPES.hpp	119;"	d
+VECTOR_NOVEC	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	119;"	d
+VECTOR_SSE4_FLOAT32	src/solvers/SIMD_TYPES.hpp	90;"	d
+VECTOR_SSE4_FLOAT32	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	90;"	d
+VECTOR_SSE4_FLOAT64	src/solvers/SIMD_TYPES.hpp	83;"	d
+VECTOR_SSE4_FLOAT64	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	83;"	d
+VISUALIZATION_H	src/opengl/visualization.h	2;"	d
+VTKWRITER_HH_	src/writer/VtkWriter.hh	27;"	d
+Visualization	src/opengl/visualization.cpp	/^Visualization::Visualization(int windowWidth, int windowHeight, const char* window_title)$/;"	f	class:Visualization
+Visualization	src/opengl/visualization.h	/^class Visualization {$/;"	c
+VtkWriter	src/writer/VtkWriter.cpp	/^io::VtkWriter::VtkWriter( const std::string &i_baseName,$/;"	f	class:io::VtkWriter
+VtkWriter	src/writer/VtkWriter.hh	/^class io::VtkWriter : public io::Writer$/;"	c	class:io
+WALL	src/scenarios/SWE_Scenario.hh	/^   OUTFLOW, WALL, INFLOW, CONNECT, PASSIVE$/;"	e	enum:BoundaryType
+WATERSHADER	src/opengl/visualization.h	/^   SHADED, WIREFRAME, WATERSHADER$/;"	e	enum:RenderMode
+WAVEPROPAGATIONSOLVER_HPP_	src/solvers/WavePropagation.hpp	19;"	d
+WAVEPROPAGATIONSOLVER_HPP_	submodules/swe_solvers/src/solver/WavePropagation.hpp	19;"	d
+WINDOW_TITLE	src/examples/swe_opengl.cpp	36;"	d	file:
+WIREFRAME	src/opengl/visualization.h	/^   SHADED, WIREFRAME, WATERSHADER$/;"	e	enum:RenderMode
+WRITER_HH_	src/writer/Writer.hh	27;"	d
+WavePropagation	src/solvers/WavePropagation.hpp	/^    WavePropagation( T i_dryTolerance,$/;"	f	class:solver::WavePropagation
+WavePropagation	src/solvers/WavePropagation.hpp	/^template <typename T> class solver::WavePropagation {$/;"	c	class:solver
+WavePropagation	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    WavePropagation( T i_dryTolerance,$/;"	f	class:solver::WavePropagation
+WavePropagation	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^template <typename T> class solver::WavePropagation {$/;"	c	class:solver
+WetDryInundation	src/solvers/AugRieCUDA.h	/^const integer WetDryInundation = 2;$/;"	v
+WetDryInundation	src/solvers/AugRieFun.hpp	/^const int WetDryInundation = 2;$/;"	v
+WetDryInundation	src/solvers/AugRie_SIMD.hpp	/^	static const integer WetDryInundation = SHIFT_SIGN_RIGHT(2);$/;"	m	class:solver::AugRie_SIMD
+WetDryInundation	src/solvers/WavePropagation.hpp	/^      WetDryInundation,     \/**< 1st cell: wet, 2nd cell: dry. 1st cell lies higher than the 2nd one. *\/$/;"	e	enum:solver::WavePropagation::WetDryState
+WetDryInundation	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer WetDryInundation = 2;$/;"	v
+WetDryInundation	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int WetDryInundation = 2;$/;"	v
+WetDryInundation	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer WetDryInundation = SHIFT_SIGN_RIGHT(2);$/;"	m	class:solver::AugRie_SIMD
+WetDryInundation	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^      WetDryInundation,     \/**< 1st cell: wet, 2nd cell: dry. 1st cell lies higher than the 2nd one. *\/$/;"	e	enum:solver::WavePropagation::WetDryState
+WetDryInundation_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector WetDryInundation_V;$/;"	m	class:solver::AugRie_SIMD
+WetDryInundation_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector WetDryInundation_V;$/;"	m	class:solver::AugRie_SIMD
+WetDryState	src/solvers/WavePropagation.hpp	/^    enum WetDryState {$/;"	g	class:solver::WavePropagation
+WetDryState	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    enum WetDryState {$/;"	g	class:solver::WavePropagation
+WetDryWall	src/solvers/AugRieCUDA.h	/^const integer WetDryWall = 3;$/;"	v
+WetDryWall	src/solvers/AugRieFun.hpp	/^const int WetDryWall = 3;$/;"	v
+WetDryWall	src/solvers/AugRie_SIMD.hpp	/^	static const integer WetDryWall = SHIFT_SIGN_RIGHT(3);$/;"	m	class:solver::AugRie_SIMD
+WetDryWall	src/solvers/WavePropagation.hpp	/^      WetDryWall,           \/**< 1st cell: wet, 2nd cell: dry. 1st cell lies lower than the 2nd one.$/;"	e	enum:solver::WavePropagation::WetDryState
+WetDryWall	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer WetDryWall = 3;$/;"	v
+WetDryWall	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int WetDryWall = 3;$/;"	v
+WetDryWall	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer WetDryWall = SHIFT_SIGN_RIGHT(3);$/;"	m	class:solver::AugRie_SIMD
+WetDryWall	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^      WetDryWall,           \/**< 1st cell: wet, 2nd cell: dry. 1st cell lies lower than the 2nd one.$/;"	e	enum:solver::WavePropagation::WetDryState
+WetDryWallInundation	src/solvers/AugRieCUDA.h	/^const integer WetDryWallInundation = 4;$/;"	v
+WetDryWallInundation	src/solvers/AugRieFun.hpp	/^const int WetDryWallInundation = 4;$/;"	v
+WetDryWallInundation	src/solvers/AugRie_SIMD.hpp	/^	static const integer WetDryWallInundation = SHIFT_SIGN_RIGHT(4);$/;"	m	class:solver::AugRie_SIMD
+WetDryWallInundation	src/solvers/WavePropagation.hpp	/^      WetDryWallInundation, \/**< 1st cell: wet, 2nd cell: dry. 1st cell lies lower than the 2nd one.$/;"	e	enum:solver::WavePropagation::WetDryState
+WetDryWallInundation	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer WetDryWallInundation = 4;$/;"	v
+WetDryWallInundation	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int WetDryWallInundation = 4;$/;"	v
+WetDryWallInundation	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer WetDryWallInundation = SHIFT_SIGN_RIGHT(4);$/;"	m	class:solver::AugRie_SIMD
+WetDryWallInundation	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^      WetDryWallInundation, \/**< 1st cell: wet, 2nd cell: dry. 1st cell lies lower than the 2nd one.$/;"	e	enum:solver::WavePropagation::WetDryState
+WetDryWallInundation_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector WetDryWallInundation_V;$/;"	m	class:solver::AugRie_SIMD
+WetDryWallInundation_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector WetDryWallInundation_V;$/;"	m	class:solver::AugRie_SIMD
+WetDryWall_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector WetDryWall_V;$/;"	m	class:solver::AugRie_SIMD
+WetDryWall_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector WetDryWall_V;$/;"	m	class:solver::AugRie_SIMD
+WetWet	src/solvers/AugRieCUDA.h	/^const integer WetWet = 1;$/;"	v
+WetWet	src/solvers/AugRieFun.hpp	/^const int WetWet = 1;$/;"	v
+WetWet	src/solvers/AugRie_SIMD.hpp	/^	static const integer WetWet = SHIFT_SIGN_RIGHT(1);$/;"	m	class:solver::AugRie_SIMD
+WetWet	src/solvers/WavePropagation.hpp	/^      WetWet,               \/**< Both cells are wet. *\/$/;"	e	enum:solver::WavePropagation::WetDryState
+WetWet	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^const integer WetWet = 1;$/;"	v
+WetWet	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^const int WetWet = 1;$/;"	v
+WetWet	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	static const integer WetWet = SHIFT_SIGN_RIGHT(1);$/;"	m	class:solver::AugRie_SIMD
+WetWet	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^      WetWet,               \/**< Both cells are wet. *\/$/;"	e	enum:solver::WavePropagation::WetDryState
+WetWet_V	src/solvers/AugRie_SIMD.hpp	/^	const integer_vector WetWet_V;$/;"	m	class:solver::AugRie_SIMD
+WetWet_V	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const integer_vector WetWet_V;$/;"	m	class:solver::AugRie_SIMD
+Writer	src/writer/Writer.hh	/^	Writer(const std::string &i_fileName,$/;"	f	class:io::Writer
+Writer	src/writer/Writer.hh	/^class io::Writer$/;"	c	class:io
+XORV_R	src/solvers/SIMD_DEFINITIONS.hpp	159;"	d
+XORV_R	src/solvers/SIMD_DEFINITIONS.hpp	57;"	d
+XORV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	159;"	d
+XORV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	57;"	d
+ZEROV_I	src/solvers/SIMD_DEFINITIONS.hpp	123;"	d
+ZEROV_I	src/solvers/SIMD_DEFINITIONS.hpp	42;"	d
+ZEROV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	123;"	d
+ZEROV_I	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	42;"	d
+ZEROV_R	src/solvers/SIMD_DEFINITIONS.hpp	122;"	d
+ZEROV_R	src/solvers/SIMD_DEFINITIONS.hpp	41;"	d
+ZEROV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	122;"	d
+ZEROV_R	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	41;"	d
+__HELP_HH	src/tools/help.hh	30;"	d
+__SWE_BLOCKCUDAKERNELS_HH	src/blocks/cuda/SWE_BlockCUDA_kernels.hh	29;"	d
+__SWE_BLOCKCUDA_HH	src/blocks/cuda/SWE_BlockCUDA.hh	30;"	d
+__SWE_BLOCK_HH	src/blocks/SWE_Block.hh	30;"	d
+__SWE_RUSANOVBLOCKCUDAKERNELS_HH	src/blocks/rusanov/SWE_RusanovBlockCUDA_kernels.hh	29;"	d
+__SWE_RUSANOVBLOCKCUDA_HH	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	29;"	d
+__SWE_RUSANOVBLOCK_HH	src/blocks/rusanov/SWE_RusanovBlock.hh	29;"	d
+__SWE_SCENARIO_H	src/scenarios/SWE_Scenario.hh	29;"	d
+__SWE_SIMPLE_SCENARIOS_H	src/scenarios/SWE_simple_scenarios.hh	30;"	d
+__SWE_SIMPLE_SCENARIOS_VIS_H	src/scenarios/SWE_simple_scenarios_vis.hh	2;"	d
+__SWE_VISINFO_H	src/scenarios/SWE_VisInfo.hh	32;"	d
+_grid	src/scenarios/SWE_AsagiScenario.hh	/^	asagi::Grid* _grid;$/;"	m	class:SWE_AsagiGrid
+_refCount	src/scenarios/SWE_AsagiScenario.hh	/^	unsigned int _refCount;$/;"	m	class:SWE_AsagiGrid
+addOption	src/tools/args.hh	/^	void addOption(const std::string &longOption,$/;"	f	class:tools::Args
+addText	src/opengl/text.h	/^	void addText(const char* text)$/;"	f	class:Text
+allocateMemory	src/tools/help.hh	/^	bool allocateMemory;$/;"	m	class:Float2D
+allowStep	src/opengl/controller.h	/^	bool allowStep;$/;"	m	class:Controller
+angleX	src/opengl/camera.h	/^	float angleX, angleY;$/;"	m	class:Camera
+angleY	src/opengl/camera.h	/^	float angleX, angleY;$/;"	m	class:Camera
+argumentInfo	src/tools/args.hh	/^	size_t argumentInfo(size_t i, std::ostream &out)$/;"	f	class:tools::Args
+asagi	build/options/SWE_gnu_cuda_asagi_openGL.py	/^asagi='yes'$/;"	v
+asagi	build/options/SWE_gnu_mpi_asagi.py	/^asagi='yes'$/;"	v
+asagiInputDir	build/options/SWE_gnu_cuda_asagi_openGL.py	/^asagiInputDir=''$/;"	v
+asagiInputDir	build/options/SWE_gnu_mpi_asagi.py	/^asagiInputDir=''$/;"	v
+augRieComputeNetUpdates	src/solvers/AugRieCUDA.h	/^augRieComputeNetUpdates ($/;"	f
+augRieComputeNetUpdates	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^augRieComputeNetUpdates ($/;"	f
+augRieSolver	src/solvers/Hybrid.hpp	/^    solver::AugRie<T> augRieSolver;$/;"	m	class:solver::Hybrid
+augRieSolver	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    solver::AugRie<T> augRieSolver;$/;"	m	class:solver::Hybrid
+b	src/blocks/SWE_Block.hh	/^    Float2D b;  \/\/\/< array that holds the bathymetry data (sea floor elevation) for each element$/;"	m	class:SWE_Block
+b	src/writer/Writer.hh	/^    const Float2D &b;$/;"	m	class:io::Writer
+bLeft	src/solvers/WavePropagation.hpp	/^    T bLeft;$/;"	m	class:solver::WavePropagation
+bLeft	src/solvers/WavePropagation.hpp	218;"	d
+bLeft	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T bLeft;$/;"	m	class:solver::WavePropagation
+bLeft	submodules/swe_solvers/src/solver/WavePropagation.hpp	218;"	d
+bLeft_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector bLeft_v;$/;"	m	class:solver::AugRie_SIMD
+bLeft_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector bLeft_v;$/;"	m	class:solver::AugRie_SIMD
+bOffset	src/opengl/visualization.h	/^	float wScale, bScale, bOffset;$/;"	m	class:Visualization
+bRight	src/solvers/WavePropagation.hpp	/^    T bRight;$/;"	m	class:solver::WavePropagation
+bRight	src/solvers/WavePropagation.hpp	219;"	d
+bRight	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T bRight;$/;"	m	class:solver::WavePropagation
+bRight	submodules/swe_solvers/src/solver/WavePropagation.hpp	219;"	d
+bRight_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector bRight_v;$/;"	m	class:solver::AugRie_SIMD
+bRight_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector bRight_v;$/;"	m	class:solver::AugRie_SIMD
+bScale	src/opengl/visualization.h	/^	float wScale, bScale, bOffset;$/;"	m	class:Visualization
+bVar	src/writer/NetCdfWriter.hh	/^    int timeVar, hVar, huVar, hvVar, bVar;$/;"	m	class:io::NetCdfWriter
+bathyVerticalOffset	src/scenarios/SWE_VisInfo.hh	/^    virtual float bathyVerticalOffset() { return 0.0f; };$/;"	f	class:SWE_VisInfo
+bathyVerticalOffset	src/scenarios/SWE_simple_scenarios_vis.hh	/^	float bathyVerticalOffset() { return 245.0f; };$/;"	f	class:SWE_BathymetryDamBreakVisInfo
+bathyVerticalScaling	src/scenarios/SWE_AsagiScenario_vis.hh	/^    virtual float bathyVerticalScaling() { return 0.010313f; };$/;"	f	class:SWE_AsagiJapanSmallVisInfo
+bathyVerticalScaling	src/scenarios/SWE_VisInfo.hh	/^    virtual float bathyVerticalScaling() { return 10.0f; };$/;"	f	class:SWE_VisInfo
+bathymetryGrid	src/scenarios/SWE_AsagiScenario.hh	/^    SWE_AsagiGrid &bathymetryGrid;$/;"	m	class:SWE_AsagiScenario
+bathymetryRange	src/scenarios/SWE_AsagiScenario.hh	/^    float bathymetryRange[4];$/;"	m	class:SWE_AsagiScenario
+bd	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* bd;$/;"	m	class:SWE_BlockCUDA
+bindBuffer	src/opengl/vbo.h	/^	void bindBuffer(GLenum target = GL_ARRAY_BUFFER)$/;"	f	class:VBO
+block	src/opengl/simulation.h	/^    SWE_BlockCUDA* block;$/;"	m	class:Simulation
+bottomCopyLayer	src/blocks/cuda/SWE_BlockCUDA.hh	/^    SWE_Block1D* bottomCopyLayer;$/;"	m	class:SWE_BlockCUDA
+bottomGhostLayer	src/blocks/cuda/SWE_BlockCUDA.hh	/^    SWE_Block1D* bottomGhostLayer;$/;"	m	class:SWE_BlockCUDA
+bottomLayer	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* bottomLayer;$/;"	m	class:SWE_BlockCUDA
+bottomLayerDevice	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* bottomLayerDevice;$/;"	m	class:SWE_BlockCUDA
+boundary	src/blocks/SWE_Block.hh	/^    BoundaryType boundary[4];$/;"	m	class:SWE_Block
+boundarySize	src/writer/Writer.hh	/^	const BoundarySize boundarySize;$/;"	m	class:io::Writer
+boundarySize	src/writer/Writer.hh	/^	int boundarySize[4];$/;"	m	struct:io::BoundarySize
+calc	paraview/netcdf_swe.py	/^calc = Calculator( Input=group )$/;"	v
+calculate_hstar	submodules/swe_solvers/unit_tests/scripts/calculate_hstar.m	/^function[hStar] = calculate_hstar(hLow, hHigh, huLow, huHigh)$/;"	f
+camera	src/opengl/visualization.h	/^	Camera* camera;$/;"	m	class:Visualization
+cameraX	src/opengl/camera.h	/^	float cameraX;$/;"	m	class:Camera
+cameraY	src/opengl/camera.h	/^	float cameraY;$/;"	m	class:Camera
+cameraZ	src/opengl/camera.h	/^	float cameraZ;$/;"	m	class:Camera
+checkComputeMiddleState	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::checkComputeMiddleState() {$/;"	f	class:ComponentsTest
+checkComputeNetUpdatesForPositivity	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::checkComputeNetUpdatesForPositivity() {$/;"	f	class:ComponentsTest
+checkComputeNetUpdatesForWalls	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::checkComputeNetUpdatesForWalls() {$/;"	f	class:ComponentsTest
+checkComputeNetUpdatesForWallsInOneDirection	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::checkComputeNetUpdatesForWallsInOneDirection(bool i_leftCellDry) {$/;"	f	class:ComponentsTest
+checkDetermineRiemannStructure	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::checkDetermineRiemannStructure() {$/;"	f	class:ComponentsTest
+checkDetermineWetDryStateSimple	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::checkDetermineWetDryStateSimple() {$/;"	f	class:ComponentsTest
+checkInundationLimits	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::checkInundationLimits() {$/;"	f	class:ComponentsTest
+checkInundationLimitsInOneDirection	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::checkInundationLimitsInOneDirection(const bool i_leftCellDry) {$/;"	f	class:ComponentsTest
+checkVector	src/solvers/SIMD_DEFINITIONS.hpp	/^	inline bool checkVector (const __m128 x) {$/;"	f
+checkVector	src/solvers/SIMD_DEFINITIONS.hpp	/^	inline bool checkVector (const __m256 x) {$/;"	f
+checkVector	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	inline bool checkVector (const __m128 x) {$/;"	f
+checkVector	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	inline bool checkVector (const __m256 x) {$/;"	f
+cleanUp	src/opengl/visualization.cpp	/^void Visualization::cleanUp() {$/;"	f	class:Visualization
+clear	src/tools/ProgressBar.hh	/^	void clear()$/;"	f	class:tools::ProgressBar
+clocks	src/tools/Logger.hh	/^  std::map<std::string, clock_t> clocks;$/;"	m	class:tools::Logger
+close	src/scenarios/SWE_AsagiScenario.hh	/^	void close()$/;"	f	class:SWE_AsagiGrid
+cmd	buildAll.py	/^    cmd = ['scons']$/;"	v
+cols	src/tools/help.hh	/^    int cols;$/;"	m	class:Float2D
+compiler	build/options/SWE_intel_mpi.py	/^compiler='intel'$/;"	v
+compiler	build/options/SWE_intel_mpi_vectorized.py	/^compiler='intel'$/;"	v
+complexsteadystatewave	src/solvers/AugRie.hpp	1124;"	d
+complexsteadystatewave	submodules/swe_solvers/src/solver/AugRie.hpp	1124;"	d
+computeBathymetrySources	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^void SWE_RusanovBlock::computeBathymetrySources() {$/;"	f	class:SWE_RusanovBlock
+computeCapability	build/options/SWE_gnu_cuda.py	/^computeCapability='sm_21'$/;"	v
+computeCapability	build/options/SWE_gnu_cuda_openGL.py	/^computeCapability='sm_21'$/;"	v
+computeCapability	build/options/SWE_gnu_mpi_asagi.py	/^computeCapability='sm_21'$/;"	v
+computeCapability	build/options/SWE_gnu_mpi_with_cuda.py	/^computeCapability='sm_21'$/;"	v
+computeFlux	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^float SWE_RusanovBlock::computeFlux(float fLow, float fHigh, float xiLow, float xiHigh,$/;"	f	class:SWE_RusanovBlock
+computeLocalSV	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^float SWE_RusanovBlock::computeLocalSV(int i, int j, char dir) {$/;"	f	class:SWE_RusanovBlock
+computeMaxTimestep	src/blocks/SWE_Block.cpp	/^void SWE_Block::computeMaxTimestep( const float i_dryTol,$/;"	f	class:SWE_Block
+computeMaxTimestep	src/blocks/rusanov/SWE_RusanovBlock.hh	/^    virtual void computeMaxTimestep() {$/;"	f	class:SWE_RusanovBlock
+computeMiddleState	src/solvers/AugRie.hpp	/^    inline void computeMiddleState( const T &i_hLeft, const T &i_hRight,$/;"	f	class:solver::AugRie
+computeMiddleState	src/solvers/AugRieCUDA.h	/^computeMiddleState ($/;"	f
+computeMiddleState	src/solvers/AugRieFun.hpp	/^computeMiddleState ($/;"	f	class:solver::AugRieFun
+computeMiddleState	src/solvers/AugRie_SIMD.hpp	/^	computeMiddleState ($/;"	f	class:solver::AugRie_SIMD
+computeMiddleState	submodules/swe_solvers/src/solver/AugRie.hpp	/^    inline void computeMiddleState( const T &i_hLeft, const T &i_hRight,$/;"	f	class:solver::AugRie
+computeMiddleState	submodules/swe_solvers/src/solver/AugRieCUDA.h	/^computeMiddleState ($/;"	f
+computeMiddleState	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^computeMiddleState ($/;"	f	class:solver::AugRieFun
+computeMiddleState	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	computeMiddleState ($/;"	f	class:solver::AugRie_SIMD
+computeMiddleState_SIMD	src/solvers/AugRie_SIMD.hpp	/^	computeMiddleState_SIMD ($/;"	f	class:solver::AugRie_SIMD
+computeMiddleState_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	computeMiddleState_SIMD ($/;"	f	class:solver::AugRie_SIMD
+computeNetUpdates	src/solvers/AugRie.hpp	/^    void computeNetUpdates ( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::AugRie
+computeNetUpdates	src/solvers/AugRieFun.hpp	/^void computeNetUpdates ($/;"	f	class:solver::AugRieFun
+computeNetUpdates	src/solvers/AugRie_SIMD.hpp	/^	computeNetUpdates ($/;"	f	class:solver::AugRie_SIMD
+computeNetUpdates	src/solvers/FWave.hpp	/^    void computeNetUpdates ( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::FWave
+computeNetUpdates	src/solvers/FWaveVec.hpp	/^	void computeNetUpdates ( T i_hLeft,  T i_hRight,$/;"	f	class:solver::FWaveVec
+computeNetUpdates	src/solvers/Hybrid.hpp	/^    void computeNetUpdates ( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::Hybrid
+computeNetUpdates	submodules/swe_solvers/src/solver/AugRie.hpp	/^    void computeNetUpdates ( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::AugRie
+computeNetUpdates	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^void computeNetUpdates ($/;"	f	class:solver::AugRieFun
+computeNetUpdates	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	computeNetUpdates ($/;"	f	class:solver::AugRie_SIMD
+computeNetUpdates	submodules/swe_solvers/src/solver/FWave.hpp	/^    void computeNetUpdates ( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::FWave
+computeNetUpdates	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^	void computeNetUpdates ( T i_hLeft,  T i_hRight,$/;"	f	class:solver::FWaveVec
+computeNetUpdates	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    void computeNetUpdates ( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::Hybrid
+computeNetUpdatesHybrid	src/solvers/FWave.hpp	/^    void computeNetUpdatesHybrid ( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::FWave
+computeNetUpdatesHybrid	submodules/swe_solvers/src/solver/FWave.hpp	/^    void computeNetUpdatesHybrid ( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::FWave
+computeNetUpdates_SIMD	src/solvers/AugRie_SIMD.hpp	/^	computeNetUpdates_SIMD ($/;"	f	class:solver::AugRie_SIMD
+computeNetUpdates_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	computeNetUpdates_SIMD ($/;"	f	class:solver::AugRie_SIMD
+computeNetUpdates_WithWaveSpeeds	src/solvers/FWave.hpp	/^    void computeNetUpdates_WithWaveSpeeds ( const T i_waveSpeeds[2],$/;"	f	class:solver::FWave
+computeNetUpdates_WithWaveSpeeds	submodules/swe_solvers/src/solver/FWave.hpp	/^    void computeNetUpdates_WithWaveSpeeds ( const T i_waveSpeeds[2],$/;"	f	class:solver::FWave
+computeNumberOfBlockRows	src/examples/swe_mpi.cpp	/^int computeNumberOfBlockRows(int i_numberOfProcesses) {$/;"	f
+computeNumericalFluxes	src/blocks/SWE_WaveAccumulationBlock.cpp	/^void SWE_WaveAccumulationBlock::computeNumericalFluxes() {$/;"	f	class:SWE_WaveAccumulationBlock
+computeNumericalFluxes	src/blocks/SWE_WavePropagationBlock.cpp	/^SWE_WavePropagationBlock::computeNumericalFluxes ()$/;"	f	class:SWE_WavePropagationBlock
+computeNumericalFluxes	src/blocks/SWE_WavePropagationBlockSIMD.cpp	/^SWE_WavePropagationBlockSIMD::computeNumericalFluxes ()$/;"	f	class:SWE_WavePropagationBlockSIMD
+computeNumericalFluxes	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^void SWE_RusanovBlock::computeNumericalFluxes() {$/;"	f	class:SWE_RusanovBlock
+computeWaveDecomposition	src/solvers/AugRie.hpp	/^    inline void computeWaveDecomposition( T o_fWaves[3][2],$/;"	f	class:solver::AugRie
+computeWaveDecomposition	src/solvers/AugRie_SIMD.hpp	/^	computeWaveDecomposition (real o_fWaves[3][2], real o_waveSpeeds[3])$/;"	f	class:solver::AugRie_SIMD
+computeWaveDecomposition	src/solvers/FWave.hpp	/^    void computeWaveDecomposition( const T i_waveSpeeds[2],$/;"	f	class:solver::FWave
+computeWaveDecomposition	submodules/swe_solvers/src/solver/AugRie.hpp	/^    inline void computeWaveDecomposition( T o_fWaves[3][2],$/;"	f	class:solver::AugRie
+computeWaveDecomposition	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	computeWaveDecomposition (real o_fWaves[3][2], real o_waveSpeeds[3])$/;"	f	class:solver::AugRie_SIMD
+computeWaveDecomposition	submodules/swe_solvers/src/solver/FWave.hpp	/^    void computeWaveDecomposition( const T i_waveSpeeds[2],$/;"	f	class:solver::FWave
+computeWaveDecomposition_SIMD	src/solvers/AugRie_SIMD.hpp	/^	computeWaveDecomposition_SIMD (real_vector o_fWaves[3][2], real_vector o_waveSpeeds[3], const real_vector wetDryMask)$/;"	f	class:solver::AugRie_SIMD
+computeWaveDecomposition_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	computeWaveDecomposition_SIMD (real_vector o_fWaves[3][2], real_vector o_waveSpeeds[3], const real_vector wetDryMask)$/;"	f	class:solver::AugRie_SIMD
+computeWaveSpeeds	src/solvers/FWave.hpp	/^    void computeWaveSpeeds( T o_waveSpeeds[2]) const {$/;"	f	class:solver::FWave
+computeWaveSpeeds	submodules/swe_solvers/src/solver/FWave.hpp	/^    void computeWaveSpeeds( T o_waveSpeeds[2]) const {$/;"	f	class:solver::FWave
+coord	src/opengl/visualization.cpp	/^int Visualization::coord(int x, int y, int width) {$/;"	f	class:Visualization
+copyRights	src/tools/Logger.hh	/^  const std::string copyRights;$/;"	m	class:tools::Logger
+correctrarefactions	src/solvers/AugRie.hpp	1125;"	d
+correctrarefactions	submodules/swe_solvers/src/solver/AugRie.hpp	1125;"	d
+counterAugRie	src/solvers/Hybrid.hpp	/^    long counterAugRie;$/;"	m	class:solver::Hybrid
+counterAugRie	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    long counterAugRie;$/;"	m	class:solver::Hybrid
+counterFWave	src/solvers/Hybrid.hpp	/^    long counterFWave;$/;"	m	class:solver::Hybrid
+counterFWave	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    long counterFWave;$/;"	m	class:solver::Hybrid
+cout	src/tools/Logger.hh	/^    std::ostream& cout() {$/;"	f	class:tools::Logger
+createIndicesVBO	src/opengl/visualization.cpp	/^void Visualization::createIndicesVBO(int xsize, int ysize)$/;"	f	class:Visualization
+createRandomNumber	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^double ComponentsTest::createRandomNumber( const double i_min, const double i_max) {$/;"	f	class:ComponentsTest
+createVertexVBO	src/opengl/visualization.cpp	/^void Visualization::createVertexVBO(VBO &vbo, struct cudaGraphicsResource *&vbo_res,$/;"	f	class:Visualization
+create_nc_testphi	submodules/swe_solvers/unit_tests/scripts/create_nc_testphi.m	/^function[size] = create_nc_testphi(path)$/;"	f
+cuda_vbo_normals	src/opengl/visualization.h	/^	struct cudaGraphicsResource* cuda_vbo_normals;$/;"	m	class:Visualization	typeref:struct:Visualization::cudaGraphicsResource
+cuda_vbo_watersurface	src/opengl/visualization.h	/^	struct cudaGraphicsResource* cuda_vbo_watersurface;$/;"	m	class:Visualization	typeref:struct:Visualization::cudaGraphicsResource
+curTime	src/opengl/simulation.h	/^    float curTime;$/;"	m	class:Simulation
+dX	src/writer/VtkWriter.hh	/^	float dX, dY;$/;"	m	class:io::VtkWriter
+dY	src/writer/VtkWriter.hh	/^	float dX, dY;$/;"	m	class:io::VtkWriter
+dataFile	src/writer/NetCdfWriter.hh	/^    int dataFile;$/;"	m	class:io::NetCdfWriter
+defaultScenario	src/opengl/simulation.h	/^    SWE_SplashingPoolScenario defaultScenario;$/;"	m	class:Simulation
+deleteCudaResource	src/opengl/visualization.cpp	/^void Visualization::deleteCudaResource(struct cudaGraphicsResource *&vbo_res)$/;"	f	class:Visualization
+deleteGrids	src/scenarios/SWE_AsagiScenario.hh	/^    void deleteGrids() {$/;"	f	class:SWE_AsagiScenario
+description	src/tools/args.hh	/^		std::string description;$/;"	m	struct:tools::Args::optionInfo
+determineRiemannStructure	src/solvers/AugRie.hpp	/^    inline RiemannStructure determineRiemannStructure( const T &i_hLeft, const T &i_hRight,$/;"	f	class:solver::AugRie
+determineRiemannStructure	src/solvers/AugRie_SIMD.hpp	/^	determineRiemannStructure (const real &i_hLeft, const real &i_hRight,$/;"	f	class:solver::AugRie_SIMD
+determineRiemannStructure	submodules/swe_solvers/src/solver/AugRie.hpp	/^    inline RiemannStructure determineRiemannStructure( const T &i_hLeft, const T &i_hRight,$/;"	f	class:solver::AugRie
+determineRiemannStructure	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	determineRiemannStructure (const real &i_hLeft, const real &i_hRight,$/;"	f	class:solver::AugRie_SIMD
+determineRiemannStructure_SIMD	src/solvers/AugRie_SIMD.hpp	/^	determineRiemannStructure_SIMD ($/;"	f	class:solver::AugRie_SIMD
+determineRiemannStructure_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	determineRiemannStructure_SIMD ($/;"	f	class:solver::AugRie_SIMD
+determineWetDryState	src/solvers/AugRie.hpp	/^    void determineWetDryState() {$/;"	f	class:solver::AugRie
+determineWetDryState	src/solvers/AugRie_SIMD.hpp	/^	determineWetDryState ()$/;"	f	class:solver::AugRie_SIMD
+determineWetDryState	src/solvers/FWave.hpp	/^    void determineWetDryState() {$/;"	f	class:solver::FWave
+determineWetDryState	submodules/swe_solvers/src/solver/AugRie.hpp	/^    void determineWetDryState() {$/;"	f	class:solver::AugRie
+determineWetDryState	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	determineWetDryState ()$/;"	f	class:solver::AugRie_SIMD
+determineWetDryState	submodules/swe_solvers/src/solver/FWave.hpp	/^    void determineWetDryState() {$/;"	f	class:solver::FWave
+determineWetDryState_SIMD	src/solvers/AugRie_SIMD.hpp	/^	determineWetDryState_SIMD ()$/;"	f	class:solver::AugRie_SIMD
+determineWetDryState_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	determineWetDryState_SIMD ()$/;"	f	class:solver::AugRie_SIMD
+disableShader	src/opengl/shader.cpp	/^void Shader::disableShader() {$/;"	f	class:Shader
+displacementGrid	src/scenarios/SWE_AsagiScenario.hh	/^    SWE_AsagiGrid &displacementGrid;$/;"	m	class:SWE_AsagiScenario
+displacementRange	src/scenarios/SWE_AsagiScenario.hh	/^    float displacementRange[4];$/;"	m	class:SWE_AsagiScenario
+displayImage	src/opengl/camera.cpp	/^void Camera::displayImage() {$/;"	f	class:Camera
+done	src/opengl/controller.h	/^	bool done;$/;"	m	class:Controller
+dryTol	src/solvers/AugRieFun.hpp	/^	const real dryTol;$/;"	m	class:solver::AugRieFun
+dryTol	src/solvers/FWaveCuda.h	/^const T dryTol = (T) 100.;$/;"	v
+dryTol	src/solvers/FWaveCuda.h	341;"	d
+dryTol	src/solvers/FWaveVec.hpp	/^	const T dryTol;$/;"	m	class:solver::FWaveVec
+dryTol	src/solvers/Hybrid.hpp	/^    const T dryTol;$/;"	m	class:solver::Hybrid
+dryTol	src/solvers/WavePropagation.hpp	/^    T dryTol;$/;"	m	class:solver::WavePropagation
+dryTol	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^	const real dryTol;$/;"	m	class:solver::AugRieFun
+dryTol	submodules/swe_solvers/src/solver/FWaveCuda.h	/^const T dryTol = (T) 100.;$/;"	v
+dryTol	submodules/swe_solvers/src/solver/FWaveCuda.h	341;"	d
+dryTol	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^	const T dryTol;$/;"	m	class:solver::FWaveVec
+dryTol	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    const T dryTol;$/;"	m	class:solver::Hybrid
+dryTol	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T dryTol;$/;"	m	class:solver::WavePropagation
+dryTol	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const double dryTol;$/;"	m	class:ComponentsTest
+dryTol_v	src/solvers/AugRie_SIMD.hpp	/^	const real_vector dryTol_v;$/;"	m	class:solver::AugRie_SIMD
+dryTol_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const real_vector dryTol_v;$/;"	m	class:solver::AugRie_SIMD
+dryTol_v_neg	src/solvers/AugRie_SIMD.hpp	/^	const real_vector dryTol_v_neg;$/;"	m	class:solver::AugRie_SIMD
+dryTol_v_neg	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const real_vector dryTol_v_neg;$/;"	m	class:solver::AugRie_SIMD
+duration	src/scenarios/SWE_AsagiScenario.hh	/^    const float duration;$/;"	m	class:SWE_AsagiScenario
+dx	src/blocks/SWE_Block.hh	/^    float dx;	\/\/\/<  mesh size of the Cartesian grid in x-direction$/;"	m	class:SWE_Block
+dy	src/blocks/SWE_Block.hh	/^    float dy;	\/\/\/<  mesh size of the Cartesian grid in y-direction$/;"	m	class:SWE_Block
+dynamicDisplacement	src/scenarios/SWE_AsagiScenario.hh	/^    const bool dynamicDisplacement;$/;"	m	class:SWE_AsagiScenario
+dynamicDisplacementAvailable	src/scenarios/SWE_AsagiScenario.hh	/^    bool dynamicDisplacementAvailable(const float i_time) {$/;"	f	class:SWE_AsagiScenario
+dynamicDisplacementTimeRange	src/scenarios/SWE_AsagiScenario.hh	/^    float dynamicDisplacementTimeRange[2];$/;"	m	class:SWE_AsagiScenario
+elem	src/tools/help.hh	/^    float* elem;$/;"	m	class:Float1D
+elem	src/tools/help.hh	/^    float* elem;$/;"	m	class:Float2D
+elemVector	src/tools/help.hh	/^	inline float* elemVector() {$/;"	f	class:Float1D
+elemVector	src/tools/help.hh	/^	inline float* elemVector() {$/;"	f	class:Float2D
+enableShader	src/opengl/shader.cpp	/^void Shader::enableShader() {$/;"	f	class:Shader
+endSimulation	src/scenarios/SWE_AsagiScenario.hh	/^    float endSimulation() {$/;"	f	class:SWE_AsagiScenario
+endSimulation	src/scenarios/SWE_Scenario.hh	/^    virtual float endSimulation() { return 0.1f; };$/;"	f	class:SWE_Scenario
+endSimulation	src/scenarios/SWE_simple_scenarios.hh	/^	virtual float endSimulation() { return (float) 15; };$/;"	f	class:SWE_BathymetryDamBreakScenario
+endSimulation	src/scenarios/SWE_simple_scenarios.hh	/^	virtual float endSimulation() { return (float) 15; };$/;"	f	class:SWE_RadialDamBreakScenario
+endSimulation	src/scenarios/SWE_simple_scenarios.hh	/^	virtual float endSimulation() { return (float) 15; };$/;"	f	class:SWE_SplashingPoolScenario
+endSimulation	src/scenarios/SWE_simple_scenarios.hh	/^    float endSimulation() { return 0.5f; };$/;"	f	class:SWE_SplashingConeScenario
+endTextMode	src/opengl/text.h	/^	void endTextMode()$/;"	f	class:Text
+exchangeBottomTopGhostLayers	src/examples/swe_mpi.cpp	/^void exchangeBottomTopGhostLayers( const int i_bottomNeighborRank, SWE_Block1D* o_bottomNeighborInflow, SWE_Block1D* i_bottomNeighborOutflow,$/;"	f
+exchangeLeftRightGhostLayers	src/examples/swe_mpi.cpp	/^void exchangeLeftRightGhostLayers( const int i_leftNeighborRank,  SWE_Block1D* o_leftInflow,  SWE_Block1D* i_leftOutflow,$/;"	f
+exists	CudaTool.py	/^def exists(env):$/;"	f
+fWaveComputeNetUpdates	src/solvers/FWaveCuda.h	/^void fWaveComputeNetUpdates( const T i_gravity,$/;"	f
+fWaveComputeNetUpdates	submodules/swe_solvers/src/solver/FWaveCuda.h	/^void fWaveComputeNetUpdates( const T i_gravity,$/;"	f
+fWaveComputeWaveDecomposition	src/solvers/FWaveCuda.h	/^inline void fWaveComputeWaveDecomposition( const T i_gravity,$/;"	f
+fWaveComputeWaveDecomposition	src/solvers/FWaveVec.hpp	/^	void fWaveComputeWaveDecomposition($/;"	f	class:solver::FWaveVec
+fWaveComputeWaveDecomposition	submodules/swe_solvers/src/solver/FWaveCuda.h	/^inline void fWaveComputeWaveDecomposition( const T i_gravity,$/;"	f
+fWaveComputeWaveDecomposition	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^	void fWaveComputeWaveDecomposition($/;"	f	class:solver::FWaveVec
+fWaveComputeWaveSpeeds	src/solvers/FWaveCuda.h	/^inline void fWaveComputeWaveSpeeds( const T i_gravity,$/;"	f
+fWaveComputeWaveSpeeds	src/solvers/FWaveVec.hpp	/^	void fWaveComputeWaveSpeeds($/;"	f	class:solver::FWaveVec
+fWaveComputeWaveSpeeds	submodules/swe_solvers/src/solver/FWaveCuda.h	/^inline void fWaveComputeWaveSpeeds( const T i_gravity,$/;"	f
+fWaveComputeWaveSpeeds	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^	void fWaveComputeWaveSpeeds($/;"	f	class:solver::FWaveVec
+fWaveSolver	src/solvers/Hybrid.hpp	/^    solver::FWave<T> fWaveSolver;$/;"	m	class:solver::Hybrid
+fWaveSolver	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    solver::FWave<T> fWaveSolver;$/;"	m	class:solver::Hybrid
+fabs_ps	src/solvers/SIMD_DEFINITIONS.hpp	/^	inline __m128 fabs_ps(const __m128 x) {$/;"	f
+fabs_ps	src/solvers/SIMD_DEFINITIONS.hpp	/^	inline __m256 fabs_ps(const __m256 x) {$/;"	f
+fabs_ps	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	inline __m128 fabs_ps(const __m128 x) {$/;"	f
+fabs_ps	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	inline __m256 fabs_ps(const __m256 x) {$/;"	f
+fileName	src/writer/Writer.hh	/^	const std::string fileName;$/;"	m	class:io::Writer
+files	paraview/netcdf_swe.py	/^files = QtGui.QFileDialog.getOpenFileNames(None, 'Select SWE output files ...', QtCore.QString(), 'NetCDF (*.nc)')$/;"	v
+finialize	src/opengl/vbo.h	/^	void finialize()$/;"	f	class:VBO
+finishMessage	src/tools/Logger.hh	/^  const std::string finishMessage;$/;"	m	class:tools::Logger
+flops	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	size_t flops;$/;"	m	class:SWE_WavePropagationBlockSIMD
+flops	src/solvers/AugRie_SIMD.hpp	/^	mutable size_t flops;$/;"	m	class:solver::AugRie_SIMD
+flops	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	mutable size_t flops;$/;"	m	class:solver::AugRie_SIMD
+flush	src/writer/NetCdfWriter.hh	/^    unsigned int flush;$/;"	m	class:io::NetCdfWriter
+font	src/opengl/text.cpp	/^TTF_Font* Text::font = 0L;$/;"	m	class:Text	file:
+font	src/opengl/text.h	/^	static TTF_Font* font;$/;"	m	class:Text
+fragmentShader	src/opengl/shader.h	/^	GLuint   fragmentShader;$/;"	m	class:Shader
+fragmentShaderLength	src/opengl/shader.h	/^	GLint    fragmentShaderLength;$/;"	m	class:Shader
+fragmentShaderSource	src/opengl/shader.h	/^	GLchar * fragmentShaderSource;$/;"	m	class:Shader
+frames	src/opengl/camera.h	/^	unsigned int frames;$/;"	m	class:Camera
+g	src/blocks/SWE_Block.cpp	/^const float SWE_Block::g = 9.81f;$/;"	m	class:SWE_Block	file:
+g	src/blocks/SWE_Block.hh	/^    static const float g;$/;"	m	class:SWE_Block
+g	src/solvers/AugRieFun.hpp	/^	const real g;            \/\/ gravity constant$/;"	m	class:solver::AugRieFun
+g	src/solvers/Hybrid.hpp	/^    const T g;$/;"	m	class:solver::Hybrid
+g	src/solvers/WavePropagation.hpp	/^    const T g;$/;"	m	class:solver::WavePropagation
+g	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^	const real g;            \/\/ gravity constant$/;"	m	class:solver::AugRieFun
+g	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    const T g;$/;"	m	class:solver::Hybrid
+g	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    const T g;$/;"	m	class:solver::WavePropagation
+g_v	src/solvers/AugRie_SIMD.hpp	/^	const real_vector g_v;$/;"	m	class:solver::AugRie_SIMD
+g_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const real_vector g_v;$/;"	m	class:solver::AugRie_SIMD
+generate	CudaTool.py	/^def generate(env):$/;"	f
+generateBaseFileName	src/tools/help.hh	/^std::string generateBaseFileName(std::string &i_baseName, int i_blockPositionX , int i_blockPositionY)$/;"	f
+generateContainerFileName	src/tools/help.hh	/^inline std::string generateContainerFileName(std::string baseName, int timeStep) {$/;"	f
+generateFileName	src/tools/help.hh	/^inline std::string generateFileName( std::string i_baseName,$/;"	f
+generateFileName	src/tools/help.hh	/^inline std::string generateFileName(std::string baseName, int timeStep) {$/;"	f
+generateFileName	src/tools/help.hh	/^inline std::string generateFileName(std::string baseName, int timeStep, int block_X, int block_Y, std::string i_fileExtension=".vts") {$/;"	f
+generateFileName	src/writer/VtkWriter.hh	/^    std::string generateFileName()$/;"	f	class:io::VtkWriter
+getArgument	src/tools/args.hh	/^	T getArgument(const std::string &option)$/;"	f	class:tools::Args
+getArgument	src/tools/args.hh	/^	T getArgument(const std::string &option, T defaultArgument)$/;"	f	class:tools::Args
+getArgument	src/tools/args.hh	/^std::string tools::Args::getArgument(const std::string &option)$/;"	f	class:tools::tools::Args
+getBathyCoord	src/blocks/cuda/SWE_BlockCUDA.hh	/^int getBathyCoord(int x, int y, int ny) {$/;"	f
+getBathymetry	src/blocks/SWE_Block.cpp	/^const Float2D& SWE_Block::getBathymetry() { $/;"	f	class:SWE_Block
+getBathymetry	src/opengl/simulation.h	/^    const Float2D& getBathymetry() { return block->getBathymetry(); }$/;"	f	class:Simulation
+getBathymetry	src/scenarios/SWE_AsagiScenario.hh	/^    float getBathymetry( const float i_positionX,$/;"	f	class:SWE_AsagiScenario
+getBathymetry	src/scenarios/SWE_Scenario.hh	/^    virtual float getBathymetry(float x, float y) { return 0.0f; };$/;"	f	class:SWE_Scenario
+getBathymetry	src/scenarios/SWE_simple_scenarios.hh	/^    float getBathymetry(float x, float y) { $/;"	f	class:SWE_BathymetryDamBreakScenario
+getBathymetry	src/scenarios/SWE_simple_scenarios.hh	/^    float getBathymetry(float x, float y) { $/;"	f	class:SWE_SeaAtRestScenario
+getBathymetry	src/scenarios/SWE_simple_scenarios.hh	/^    float getBathymetry(float x, float y) { $/;"	f	class:SWE_SplashingConeScenario
+getBathymetry	src/scenarios/SWE_simple_scenarios.hh	/^    float getBathymetry(float x, float y) {$/;"	f	class:SWE_RadialDamBreakScenario
+getBathymetry	src/scenarios/SWE_simple_scenarios.hh	/^    float getBathymetry(float x, float y) {$/;"	f	class:SWE_SplashingPoolScenario
+getBathymetryAndDynamicDisplacement	src/scenarios/SWE_AsagiScenario.hh	/^    float getBathymetryAndDynamicDisplacement( const float i_positionX,$/;"	f	class:SWE_AsagiScenario
+getBoundaryPos	src/scenarios/SWE_AsagiScenario.hh	/^    float getBoundaryPos(BoundaryEdge i_edge) {$/;"	f	class:SWE_AsagiScenario
+getBoundaryPos	src/scenarios/SWE_Scenario.hh	/^    virtual float getBoundaryPos(BoundaryEdge edge) {$/;"	f	class:SWE_Scenario
+getBoundaryPos	src/scenarios/SWE_simple_scenarios.hh	/^    float getBoundaryPos(BoundaryEdge i_edge) {$/;"	f	class:SWE_BathymetryDamBreakScenario
+getBoundaryPos	src/scenarios/SWE_simple_scenarios.hh	/^    float getBoundaryPos(BoundaryEdge i_edge) {$/;"	f	class:SWE_RadialDamBreakScenario
+getBoundaryPos	src/scenarios/SWE_simple_scenarios.hh	/^    float getBoundaryPos(BoundaryEdge i_edge) {$/;"	f	class:SWE_SplashingPoolScenario
+getBoundaryType	src/scenarios/SWE_AsagiScenario.hh	/^    BoundaryType getBoundaryType( BoundaryEdge i_edge ) {$/;"	f	class:SWE_AsagiScenario
+getBoundaryType	src/scenarios/SWE_Scenario.hh	/^    virtual BoundaryType getBoundaryType(BoundaryEdge edge) { return WALL; };$/;"	f	class:SWE_Scenario
+getBoundaryType	src/scenarios/SWE_simple_scenarios.hh	/^    virtual BoundaryType getBoundaryType(BoundaryEdge edge) { return OUTFLOW; };$/;"	f	class:SWE_BathymetryDamBreakScenario
+getBoundaryType	src/scenarios/SWE_simple_scenarios.hh	/^    virtual BoundaryType getBoundaryType(BoundaryEdge edge) { return OUTFLOW; };$/;"	f	class:SWE_RadialDamBreakScenario
+getBoundaryType	src/scenarios/SWE_simple_scenarios.hh	/^    virtual BoundaryType getBoundaryType(BoundaryEdge edge) { return OUTFLOW; };$/;"	f	class:SWE_SplashingConeScenario
+getCUDA_bathymetry	src/blocks/cuda/SWE_BlockCUDA.hh	/^    const float* getCUDA_bathymetry() { return bd; };$/;"	f	class:SWE_BlockCUDA
+getCUDA_waterHeight	src/blocks/cuda/SWE_BlockCUDA.hh	/^    const float* getCUDA_waterHeight() { return hd; };$/;"	f	class:SWE_BlockCUDA
+getCellCoord	src/blocks/cuda/SWE_BlockCUDA.hh	/^int getCellCoord(int x, int y, int ny) {$/;"	f
+getColProxy	src/tools/help.hh	/^	inline Float1D getColProxy(int i) {$/;"	f	class:Float2D
+getCols	src/tools/help.hh	/^        inline int getCols() const { return cols; }; $/;"	f	class:Float2D
+getCudaNormalsPtr	src/opengl/visualization.cpp	/^cudaGraphicsResource** Visualization::getCudaNormalsPtr() {$/;"	f	class:Visualization
+getCudaWaterSurfacePtr	src/opengl/visualization.cpp	/^cudaGraphicsResource** Visualization::getCudaWaterSurfacePtr() {$/;"	f	class:Visualization
+getDischarge_hu	src/blocks/SWE_Block.cpp	/^const Float2D& SWE_Block::getDischarge_hu() { $/;"	f	class:SWE_Block
+getDischarge_hv	src/blocks/SWE_Block.cpp	/^const Float2D& SWE_Block::getDischarge_hv() { $/;"	f	class:SWE_Block
+getEdgeCoord	src/blocks/cuda/SWE_BlockCUDA.hh	/^int getEdgeCoord(int x, int y, int ny) {$/;"	f
+getMaxTimestep	src/blocks/SWE_Block.hh	/^    float getMaxTimestep() { return maxTimestep; };$/;"	f	class:SWE_Block
+getName	src/opengl/vbo.h	/^	GLuint getName()$/;"	f	class:VBO
+getNx	src/blocks/SWE_Block.hh	/^    int getNx() { return nx; }$/;"	f	class:SWE_Block
+getNx	src/opengl/simulation.h	/^    int getNx() { return nx; }$/;"	f	class:Simulation
+getNy	src/blocks/SWE_Block.hh	/^    int getNy() { return ny; }$/;"	f	class:SWE_Block
+getNy	src/opengl/simulation.h	/^    int getNy() { return ny; }$/;"	f	class:Simulation
+getRowProxy	src/tools/help.hh	/^	inline Float1D getRowProxy(int j) {$/;"	f	class:Float2D
+getRows	src/tools/help.hh	/^        inline int getRows() const { return rows; }; $/;"	f	class:Float2D
+getSize	src/tools/help.hh	/^        inline int getSize() const { return rows; }; $/;"	f	class:Float1D
+getStats	src/solvers/Hybrid.hpp	/^    void getStats( long &o_counterFWave, long &o_counterAugRie ) {$/;"	f	class:solver::Hybrid
+getStats	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    void getStats( long &o_counterFWave, long &o_counterAugRie ) {$/;"	f	class:solver::Hybrid
+getTime	src/tools/Logger.hh	/^    double getTime(const std::string &i_name) {$/;"	f	class:tools::Logger
+getUniformLocation	src/opengl/shader.h	/^	GLint getUniformLocation(const char* name)$/;"	f	class:Shader
+getVeloc_u	src/scenarios/SWE_Scenario.hh	/^    virtual float getVeloc_u(float x, float y) { return 0.0f; };$/;"	f	class:SWE_Scenario
+getVeloc_v	src/scenarios/SWE_Scenario.hh	/^    virtual float getVeloc_v(float x, float y) { return 0.0f; };$/;"	f	class:SWE_Scenario
+getWaterHeight	src/blocks/SWE_Block.cpp	/^const Float2D& SWE_Block::getWaterHeight() { $/;"	f	class:SWE_Block
+getWaterHeight	src/scenarios/SWE_AsagiScenario.hh	/^    float getWaterHeight( float i_positionX,$/;"	f	class:SWE_AsagiScenario
+getWaterHeight	src/scenarios/SWE_Scenario.hh	/^    virtual float getWaterHeight(float x, float y) { return 10.0f; };$/;"	f	class:SWE_Scenario
+getWaterHeight	src/scenarios/SWE_simple_scenarios.hh	/^    float getWaterHeight( float i_positionX,$/;"	f	class:SWE_BathymetryDamBreakScenario
+getWaterHeight	src/scenarios/SWE_simple_scenarios.hh	/^    float getWaterHeight(float x, float y) { $/;"	f	class:SWE_RadialDamBreakScenario
+getWaterHeight	src/scenarios/SWE_simple_scenarios.hh	/^    float getWaterHeight(float x, float y) { $/;"	f	class:SWE_SeaAtRestScenario
+getWaterHeight	src/scenarios/SWE_simple_scenarios.hh	/^    float getWaterHeight(float x, float y) { $/;"	f	class:SWE_SplashingConeScenario
+getWaterHeight	src/scenarios/SWE_simple_scenarios.hh	/^    float getWaterHeight(float x, float y) {$/;"	f	class:SWE_SplashingPoolScenario
+glAttachShader	src/opengl/shader.cpp	/^PFNGLATTACHSHADERPROC Shader::glAttachShader;$/;"	m	class:Shader	file:
+glAttachShader	src/opengl/shader.h	/^	static PFNGLATTACHSHADERPROC glAttachShader;$/;"	m	class:Shader
+glBindBuffer	src/opengl/vbo.cpp	/^PFNGLBINDBUFFERARBPROC VBO::glBindBuffer = 0L;$/;"	m	class:VBO	file:
+glBindBuffer	src/opengl/vbo.h	/^	static PFNGLBINDBUFFERARBPROC glBindBuffer;					\/\/ VBO Bind Procedure$/;"	m	class:VBO
+glBufferData	src/opengl/vbo.cpp	/^PFNGLBUFFERDATAARBPROC VBO::glBufferData = 0L;$/;"	m	class:VBO	file:
+glBufferData	src/opengl/vbo.h	/^	static PFNGLBUFFERDATAARBPROC glBufferData;					\/\/ VBO Data Loading Procedure$/;"	m	class:VBO
+glCompileShader	src/opengl/shader.cpp	/^PFNGLCOMPILESHADERPROC Shader::glCompileShader;$/;"	m	class:Shader	file:
+glCompileShader	src/opengl/shader.h	/^	static PFNGLCOMPILESHADERPROC glCompileShader;$/;"	m	class:Shader
+glCreateProgram	src/opengl/shader.cpp	/^PFNGLCREATEPROGRAMPROC Shader::glCreateProgram;$/;"	m	class:Shader	file:
+glCreateProgram	src/opengl/shader.h	/^	static PFNGLCREATEPROGRAMPROC glCreateProgram;$/;"	m	class:Shader
+glCreateShader	src/opengl/shader.cpp	/^PFNGLCREATESHADERPROC Shader::glCreateShader;$/;"	m	class:Shader	file:
+glCreateShader	src/opengl/shader.h	/^	static PFNGLCREATESHADERPROC glCreateShader;$/;"	m	class:Shader
+glDeleteBuffers	src/opengl/vbo.cpp	/^PFNGLDELETEBUFFERSARBPROC VBO::glDeleteBuffers = 0L;$/;"	m	class:VBO	file:
+glDeleteBuffers	src/opengl/vbo.h	/^	static PFNGLDELETEBUFFERSARBPROC glDeleteBuffers;			\/\/ VBO Deletion Procedure$/;"	m	class:VBO
+glDeleteProgram	src/opengl/shader.cpp	/^PFNGLDELETEPROGRAMPROC Shader::glDeleteProgram;$/;"	m	class:Shader	file:
+glDeleteProgram	src/opengl/shader.h	/^	static PFNGLDELETEPROGRAMPROC glDeleteProgram;$/;"	m	class:Shader
+glDeleteShader	src/opengl/shader.cpp	/^PFNGLDELETESHADERPROC Shader::glDeleteShader;$/;"	m	class:Shader	file:
+glDeleteShader	src/opengl/shader.h	/^	static PFNGLDELETESHADERPROC glDeleteShader;$/;"	m	class:Shader
+glDetachShader	src/opengl/shader.cpp	/^PFNGLDETACHSHADERPROC Shader::glDetachShader;$/;"	m	class:Shader	file:
+glDetachShader	src/opengl/shader.h	/^	static PFNGLDETACHSHADERPROC glDetachShader;$/;"	m	class:Shader
+glGenBuffers	src/opengl/vbo.cpp	/^PFNGLGENBUFFERSARBPROC VBO::glGenBuffers = 0L;$/;"	m	class:VBO	file:
+glGenBuffers	src/opengl/vbo.h	/^	static PFNGLGENBUFFERSARBPROC glGenBuffers;					\/\/ VBO Name Generation Procedure$/;"	m	class:VBO
+glGetObjectParameterivARB	src/opengl/shader.cpp	/^PFNGLGETOBJECTPARAMETERIVARBPROC Shader::glGetObjectParameterivARB;$/;"	m	class:Shader	file:
+glGetObjectParameterivARB	src/opengl/shader.h	/^	static PFNGLGETOBJECTPARAMETERIVARBPROC glGetObjectParameterivARB;$/;"	m	class:Shader
+glGetProgramInfoLog	src/opengl/shader.cpp	/^PFNGLGETPROGRAMINFOLOGPROC Shader::glGetProgramInfoLog;$/;"	m	class:Shader	file:
+glGetProgramInfoLog	src/opengl/shader.h	/^	static PFNGLGETPROGRAMINFOLOGPROC glGetProgramInfoLog;$/;"	m	class:Shader
+glGetShaderInfoLog	src/opengl/shader.cpp	/^PFNGLGETSHADERINFOLOGPROC Shader::glGetShaderInfoLog;$/;"	m	class:Shader	file:
+glGetShaderInfoLog	src/opengl/shader.h	/^	static PFNGLGETSHADERINFOLOGPROC glGetShaderInfoLog;$/;"	m	class:Shader
+glGetShaderiv	src/opengl/shader.cpp	/^PFNGLGETSHADERIVPROC Shader::glGetShaderiv;$/;"	m	class:Shader	file:
+glGetShaderiv	src/opengl/shader.h	/^	static PFNGLGETSHADERIVPROC glGetShaderiv;$/;"	m	class:Shader
+glGetUniformLocation	src/opengl/shader.cpp	/^PFNGLGETUNIFORMLOCATIONPROC Shader::glGetUniformLocation;$/;"	m	class:Shader	file:
+glGetUniformLocation	src/opengl/shader.h	/^	static PFNGLGETUNIFORMLOCATIONPROC glGetUniformLocation;$/;"	m	class:Shader
+glLinkProgram	src/opengl/shader.cpp	/^PFNGLLINKPROGRAMPROC Shader::glLinkProgram;$/;"	m	class:Shader	file:
+glLinkProgram	src/opengl/shader.h	/^	static PFNGLLINKPROGRAMPROC glLinkProgram;$/;"	m	class:Shader
+glPrimitiveRestartIndexNV	src/opengl/visualization.cpp	/^PFNGLPRIMITIVERESTARTINDEXNVPROC Visualization::glPrimitiveRestartIndexNV;$/;"	m	class:Visualization	file:
+glPrimitiveRestartIndexNV	src/opengl/visualization.h	/^	static PFNGLPRIMITIVERESTARTINDEXNVPROC glPrimitiveRestartIndexNV;$/;"	m	class:Visualization
+glShaderSource	src/opengl/shader.cpp	/^PFNGLSHADERSOURCEPROC Shader::glShaderSource;$/;"	m	class:Shader	file:
+glShaderSource	src/opengl/shader.h	/^	static PFNGLSHADERSOURCEPROC glShaderSource;$/;"	m	class:Shader
+glUniform1f	src/opengl/shader.cpp	/^PFNGLUNIFORM1FPROC Shader::glUniform1f;$/;"	m	class:Shader	file:
+glUniform1f	src/opengl/shader.h	/^	static PFNGLUNIFORM1FPROC glUniform1f;$/;"	m	class:Shader
+glUseProgram	src/opengl/shader.cpp	/^PFNGLUSEPROGRAMPROC Shader::glUseProgram;$/;"	m	class:Shader	file:
+glUseProgram	src/opengl/shader.h	/^	static PFNGLUSEPROGRAMPROC glUseProgram;$/;"	m	class:Shader
+grabGhostLayer	src/blocks/SWE_Block.cpp	/^SWE_Block1D* SWE_Block::grabGhostLayer(BoundaryEdge edge){$/;"	f	class:SWE_Block
+gravity	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const double gravity;$/;"	m	class:ComponentsTest
+grid	src/scenarios/SWE_AsagiScenario.hh	/^	asagi::Grid& grid()$/;"	f	class:SWE_AsagiGrid
+grid_xsize	src/opengl/visualization.h	/^	int grid_xsize;$/;"	m	class:Visualization
+grid_ysize	src/opengl/visualization.h	/^	int grid_ysize;$/;"	m	class:Visualization
+grids	src/scenarios/SWE_AsagiScenario.cpp	/^std::map<std::string, SWE_AsagiGrid> SWE_AsagiScenario::grids;$/;"	m	class:SWE_AsagiScenario	file:
+grids	src/scenarios/SWE_AsagiScenario.hh	/^	static std::map<std::string, SWE_AsagiGrid> grids;$/;"	m	class:SWE_AsagiScenario
+group	paraview/netcdf_swe.py	/^	group = GroupDatasets( Input=sources )$/;"	v
+group	paraview/netcdf_swe.py	/^	group = sources[0]$/;"	v
+h	src/blocks/SWE_Block.hh	/^    Float1D h;$/;"	m	struct:SWE_Block1D
+h	src/blocks/SWE_Block.hh	/^    Float2D h;	\/\/\/< array that holds the water height for each element$/;"	m	class:SWE_Block
+hLeft	src/solvers/WavePropagation.hpp	/^    T hLeft;$/;"	m	class:solver::WavePropagation
+hLeft	src/solvers/WavePropagation.hpp	212;"	d
+hLeft	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T hLeft;$/;"	m	class:solver::WavePropagation
+hLeft	submodules/swe_solvers/src/solver/WavePropagation.hpp	212;"	d
+hLeft	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  double hLeft, hRight, uLeft, uRight;$/;"	m	class:ComponentsTest
+hLeft_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector hLeft_v;$/;"	m	class:solver::AugRie_SIMD
+hLeft_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector hLeft_v;$/;"	m	class:solver::AugRie_SIMD
+hMiddle	src/solvers/AugRie.hpp	/^    T hMiddle;$/;"	m	class:solver::AugRie
+hMiddle	src/solvers/AugRie_SIMD.hpp	/^	real hMiddle;$/;"	m	class:solver::AugRie_SIMD
+hMiddle	submodules/swe_solvers/src/solver/AugRie.hpp	/^    T hMiddle;$/;"	m	class:solver::AugRie
+hMiddle	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real hMiddle;$/;"	m	class:solver::AugRie_SIMD
+hMiddle_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector hMiddle_v;$/;"	m	class:solver::AugRie_SIMD
+hMiddle_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector hMiddle_v;$/;"	m	class:solver::AugRie_SIMD
+hNetUpdates	src/blocks/SWE_WaveAccumulationBlock.hh	/^    Float2D hNetUpdates;$/;"	m	class:SWE_WaveAccumulationBlock
+hNetUpdatesAbove	src/blocks/SWE_WavePropagationBlock.hh	/^    Float2D hNetUpdatesAbove;$/;"	m	class:SWE_WavePropagationBlock
+hNetUpdatesAbove	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D hNetUpdatesAbove;$/;"	m	class:SWE_WavePropagationBlockSIMD
+hNetUpdatesAboveD	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^    float* hNetUpdatesAboveD;$/;"	m	class:SWE_WavePropagationBlockCuda
+hNetUpdatesBelow	src/blocks/SWE_WavePropagationBlock.hh	/^    Float2D hNetUpdatesBelow;$/;"	m	class:SWE_WavePropagationBlock
+hNetUpdatesBelow	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D hNetUpdatesBelow;$/;"	m	class:SWE_WavePropagationBlockSIMD
+hNetUpdatesBelowD	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^    float* hNetUpdatesBelowD;$/;"	m	class:SWE_WavePropagationBlockCuda
+hNetUpdatesLeft	src/blocks/SWE_WavePropagationBlock.hh	/^    Float2D hNetUpdatesLeft;$/;"	m	class:SWE_WavePropagationBlock
+hNetUpdatesLeft	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D hNetUpdatesLeft;$/;"	m	class:SWE_WavePropagationBlockSIMD
+hNetUpdatesLeftD	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^    float* hNetUpdatesLeftD;$/;"	m	class:SWE_WavePropagationBlockCuda
+hNetUpdatesRight	src/blocks/SWE_WavePropagationBlock.hh	/^    Float2D hNetUpdatesRight;$/;"	m	class:SWE_WavePropagationBlock
+hNetUpdatesRight	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D hNetUpdatesRight;$/;"	m	class:SWE_WavePropagationBlockSIMD
+hNetUpdatesRightD	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^    float* hNetUpdatesRightD;$/;"	m	class:SWE_WavePropagationBlockCuda
+hRight	src/solvers/WavePropagation.hpp	/^    T hRight;$/;"	m	class:solver::WavePropagation
+hRight	src/solvers/WavePropagation.hpp	213;"	d
+hRight	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T hRight;$/;"	m	class:solver::WavePropagation
+hRight	submodules/swe_solvers/src/solver/WavePropagation.hpp	213;"	d
+hRight	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  double hLeft, hRight, uLeft, uRight;$/;"	m	class:ComponentsTest
+hRight_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector hRight_v;$/;"	m	class:solver::AugRie_SIMD
+hRight_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector hRight_v;$/;"	m	class:solver::AugRie_SIMD
+hVar	src/writer/NetCdfWriter.hh	/^    int timeVar, hVar, huVar, hvVar, bVar;$/;"	m	class:io::NetCdfWriter
+half_g	src/solvers/AugRieFun.hpp	/^	const real half_g;       \/\/ 0.5 * gravity constant$/;"	m	class:solver::AugRieFun
+half_g	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^	const real half_g;       \/\/ 0.5 * gravity constant$/;"	m	class:solver::AugRieFun
+half_gravity	src/solvers/FWaveVec.hpp	/^	const T half_gravity; \/\/ 0.5 * gravity constant$/;"	m	class:solver::FWaveVec
+half_gravity	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^	const T half_gravity; \/\/ 0.5 * gravity constant$/;"	m	class:solver::FWaveVec
+handleEvents	src/opengl/controller.cpp	/^bool Controller::handleEvents() {$/;"	f	class:Controller
+handleKeyPress	src/opengl/controller.cpp	/^bool Controller::handleKeyPress( SDL_keysym *keysym) {$/;"	f	class:Controller
+hasFocus	src/opengl/controller.cpp	/^bool Controller::hasFocus() {$/;"	f	class:Controller
+hd	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* hd;$/;"	m	class:SWE_BlockCUDA
+height	src/opengl/text.h	/^	std::vector<int> height;$/;"	m	class:Text
+height2Color	src/opengl/visualization.cpp	/^void Visualization::height2Color(float height, GLfloat *color)$/;"	f	class:Visualization
+helpMessage	src/tools/args.hh	/^	void helpMessage(const char* prog, std::ostream &out = std::cout)$/;"	f	class:tools::Args
+hu	src/blocks/SWE_Block.hh	/^    Float1D hu;$/;"	m	struct:SWE_Block1D
+hu	src/blocks/SWE_Block.hh	/^    Float2D hu; \/\/\/< array that holds the x-component of the momentum for each element (water height h multiplied by velocity in x-direction)$/;"	m	class:SWE_Block
+huLeft	src/solvers/WavePropagation.hpp	/^    T huLeft;$/;"	m	class:solver::WavePropagation
+huLeft	src/solvers/WavePropagation.hpp	215;"	d
+huLeft	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T huLeft;$/;"	m	class:solver::WavePropagation
+huLeft	submodules/swe_solvers/src/solver/WavePropagation.hpp	215;"	d
+huLeft_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector huLeft_v;$/;"	m	class:solver::AugRie_SIMD
+huLeft_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector huLeft_v;$/;"	m	class:solver::AugRie_SIMD
+huNetUpdates	src/blocks/SWE_WaveAccumulationBlock.hh	/^    Float2D huNetUpdates;$/;"	m	class:SWE_WaveAccumulationBlock
+huNetUpdatesAbove	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D huNetUpdatesAbove;$/;"	m	class:SWE_WavePropagationBlockSIMD
+huNetUpdatesBelow	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D huNetUpdatesBelow;$/;"	m	class:SWE_WavePropagationBlockSIMD
+huNetUpdatesLeft	src/blocks/SWE_WavePropagationBlock.hh	/^    Float2D huNetUpdatesLeft;$/;"	m	class:SWE_WavePropagationBlock
+huNetUpdatesLeft	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D huNetUpdatesLeft;$/;"	m	class:SWE_WavePropagationBlockSIMD
+huNetUpdatesLeftD	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^    float* huNetUpdatesLeftD;$/;"	m	class:SWE_WavePropagationBlockCuda
+huNetUpdatesRight	src/blocks/SWE_WavePropagationBlock.hh	/^    Float2D huNetUpdatesRight;$/;"	m	class:SWE_WavePropagationBlock
+huNetUpdatesRight	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D huNetUpdatesRight;$/;"	m	class:SWE_WavePropagationBlockSIMD
+huNetUpdatesRightD	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^    float* huNetUpdatesRightD;$/;"	m	class:SWE_WavePropagationBlockCuda
+huRight	src/solvers/WavePropagation.hpp	/^    T huRight;$/;"	m	class:solver::WavePropagation
+huRight	src/solvers/WavePropagation.hpp	216;"	d
+huRight	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T huRight;$/;"	m	class:solver::WavePropagation
+huRight	submodules/swe_solvers/src/solver/WavePropagation.hpp	216;"	d
+huRight_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector huRight_v;$/;"	m	class:solver::AugRie_SIMD
+huRight_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector huRight_v;$/;"	m	class:solver::AugRie_SIMD
+huVar	src/writer/NetCdfWriter.hh	/^    int timeVar, hVar, huVar, hvVar, bVar;$/;"	m	class:io::NetCdfWriter
+hud	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* hud;$/;"	m	class:SWE_BlockCUDA
+hv	src/blocks/SWE_Block.hh	/^    Float1D hv;$/;"	m	struct:SWE_Block1D
+hv	src/blocks/SWE_Block.hh	/^    Float2D hv; \/\/\/< array that holds the y-component of the momentum for each element (water height h multiplied by velocity in y-direction)$/;"	m	class:SWE_Block
+hvNetUpdates	src/blocks/SWE_WaveAccumulationBlock.hh	/^    Float2D hvNetUpdates;$/;"	m	class:SWE_WaveAccumulationBlock
+hvNetUpdatesAbove	src/blocks/SWE_WavePropagationBlock.hh	/^    Float2D hvNetUpdatesAbove;$/;"	m	class:SWE_WavePropagationBlock
+hvNetUpdatesAbove	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D hvNetUpdatesAbove;$/;"	m	class:SWE_WavePropagationBlockSIMD
+hvNetUpdatesAboveD	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^    float* hvNetUpdatesAboveD;$/;"	m	class:SWE_WavePropagationBlockCuda
+hvNetUpdatesBelow	src/blocks/SWE_WavePropagationBlock.hh	/^    Float2D hvNetUpdatesBelow;$/;"	m	class:SWE_WavePropagationBlock
+hvNetUpdatesBelow	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D hvNetUpdatesBelow;$/;"	m	class:SWE_WavePropagationBlockSIMD
+hvNetUpdatesBelowD	src/blocks/cuda/SWE_WavePropagationBlockCuda.hh	/^    float* hvNetUpdatesBelowD;$/;"	m	class:SWE_WavePropagationBlockCuda
+hvNetUpdatesLeft	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D hvNetUpdatesLeft;$/;"	m	class:SWE_WavePropagationBlockSIMD
+hvNetUpdatesRight	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	Float2D hvNetUpdatesRight;$/;"	m	class:SWE_WavePropagationBlockSIMD
+hvVar	src/writer/NetCdfWriter.hh	/^    int timeVar, hVar, huVar, hvVar, bVar;$/;"	m	class:io::NetCdfWriter
+hvd	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* hvd;$/;"	m	class:SWE_BlockCUDA
+indentation	src/tools/Logger.hh	/^  const std::string indentation;$/;"	m	class:tools::Logger
+indicesCount	src/opengl/visualization.h	/^	GLsizei* indicesCount;$/;"	m	class:Visualization
+indicesOffset	src/opengl/visualization.h	/^	GLvoid** indicesOffset;$/;"	m	class:Visualization
+init	src/opengl/vbo.cpp	/^void VBO::init()$/;"	f	class:VBO
+init	src/opengl/visualization.cpp	/^void Visualization::init(Simulation &sim, SWE_VisInfo *visInfo)$/;"	f	class:Visualization
+initCUDA	src/opengl/visualization.cpp	/^void Visualization::initCUDA() {$/;"	f	class:Visualization
+initGLDefaults	src/opengl/visualization.cpp	/^void Visualization::initGLDefaults() {$/;"	f	class:Visualization
+initSDL	src/opengl/visualization.cpp	/^void Visualization::initSDL() {$/;"	f	class:Visualization
+initScenario	src/blocks/SWE_Block.cpp	/^void SWE_Block::initScenario( float _offsetX, float _offsetY,$/;"	f	class:SWE_Block
+initWallClockTime	src/tools/Logger.hh	/^    void initWallClockTime( const double i_wallClockTime ) {$/;"	f	class:tools::Logger
+instances	src/opengl/text.cpp	/^unsigned int Text::instances = 0;$/;"	m	class:Text	file:
+instances	src/opengl/text.h	/^	static unsigned int instances;$/;"	m	class:Text
+integer	src/solvers/SIMD_TYPES.hpp	/^	typedef unsigned int integer;$/;"	t
+integer	src/solvers/SIMD_TYPES.hpp	/^	typedef unsigned long long integer;$/;"	t
+integer	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^	typedef unsigned int integer;$/;"	t
+integer	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^	typedef unsigned long long integer;$/;"	t
+integer_vector	src/solvers/SIMD_TYPES.hpp	/^	typedef __m128i integer_vector;$/;"	t
+integer_vector	src/solvers/SIMD_TYPES.hpp	/^	typedef __m256i integer_vector;$/;"	t
+integer_vector	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^	typedef __m128i integer_vector;$/;"	t
+integer_vector	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^	typedef __m256i integer_vector;$/;"	t
+io	src/writer/NetCdfWriter.hh	/^namespace io {$/;"	n
+io	src/writer/VtkWriter.hh	/^namespace io {$/;"	n
+io	src/writer/Writer.hh	/^namespace io {$/;"	n
+isActive	src/opengl/controller.h	/^	bool isActive;$/;"	m	class:Controller
+isExtensionSupported	src/opengl/shader.cpp	/^bool Shader::isExtensionSupported(const char* szTargetExtension )$/;"	f	class:Shader
+isExtensionSupported	src/opengl/visualization.cpp	/^bool Visualization::isExtensionSupported(const char* szTargetExtension )$/;"	f	class:Visualization
+isFirstStep	src/opengl/simulation.h	/^    int isFirstStep;$/;"	m	class:Simulation
+isPaused	src/opengl/controller.cpp	/^bool Controller::isPaused() {$/;"	f	class:Controller
+isProgramLinked	src/opengl/shader.cpp	/^bool Shader::isProgramLinked(GLuint program, char const * prefix)$/;"	f	class:Shader
+isSet	src/tools/args.hh	/^	bool isSet(const std::string &option)$/;"	f	class:tools::Args
+isShaderCompiled	src/opengl/shader.cpp	/^bool Shader::isShaderCompiled(GLuint shader, char const * prefix)$/;"	f	class:Shader
+largeDelimiter	src/tools/Logger.hh	/^  const std::string largeDelimiter;$/;"	m	class:tools::Logger
+lastTime	src/opengl/camera.h	/^	unsigned int lastTime;$/;"	m	class:Camera
+logger	src/tools/Logger.cpp	/^tools::Logger tools::Logger::logger;$/;"	m	class:tools::Logger	file:
+logger	src/tools/Logger.hh	/^    static Logger logger;$/;"	m	class:tools::Logger
+longOption	src/tools/args.hh	/^		std::string longOption;		\/\/ We need a copy here to get the const char* correct$/;"	m	struct:tools::Args::optionInfo
+loop	src/opengl/simulation.h	/^    bool loop;$/;"	m	class:Simulation
+m_addHelp	src/tools/args.hh	/^	const bool m_addHelp;$/;"	m	class:tools::Args
+m_arguments	src/tools/args.hh	/^	std::map<std::string, std::string> m_arguments;$/;"	m	class:tools::Args
+m_description	src/tools/args.hh	/^	const std::string m_description;$/;"	m	class:tools::Args
+m_optionInfo	src/tools/args.hh	/^	std::vector<optionInfo> m_optionInfo;$/;"	m	class:tools::Args
+m_options	src/tools/args.hh	/^	std::vector<struct option> m_options;$/;"	m	class:tools::Args
+m_rank	src/tools/ProgressBar.hh	/^	int m_rank;$/;"	m	class:tools::ProgressBar
+m_rotatingBar	src/tools/ProgressBar.hh	/^	unsigned char m_rotatingBar;$/;"	m	class:tools::ProgressBar
+m_short2option	src/tools/args.hh	/^	std::map<char, size_t> m_short2option;$/;"	m	class:tools::Args
+m_startTime	src/tools/ProgressBar.hh	/^	time_t m_startTime;$/;"	m	class:tools::ProgressBar
+m_terminalSize	src/tools/ProgressBar.hh	/^	unsigned int m_terminalSize;$/;"	m	class:tools::ProgressBar
+m_totalWork	src/tools/ProgressBar.hh	/^	float m_totalWork;$/;"	m	class:tools::ProgressBar
+main	src/examples/swe_mpi.cpp	/^int main( int argc, char** argv ) {$/;"	f
+main	src/examples/swe_opengl.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	src/examples/swe_opengl.cpp	31;"	d	file:
+main	src/examples/swe_simple.cpp	/^int main( int argc, char** argv ) {$/;"	f
+main	submodules/swe_solvers/src/unit_tests/UnitTests.cpp	/^int main(){$/;"	f
+main	submodules/swe_solvers/unit_tests/scripts/main.m	/^function[] = main()$/;"	f
+maxNumberOfNewtonIterations	src/solvers/AugRie.hpp	/^    const int maxNumberOfNewtonIterations;$/;"	m	class:solver::AugRie
+maxNumberOfNewtonIterations	src/solvers/AugRieFun.hpp	/^	const unsigned int maxNumberOfNewtonIterations; \/\/ maximum number of performed Newton iterations$/;"	m	class:solver::AugRieFun
+maxNumberOfNewtonIterations	src/solvers/AugRie_SIMD.hpp	/^	const int maxNumberOfNewtonIterations;$/;"	m	class:solver::AugRie_SIMD
+maxNumberOfNewtonIterations	submodules/swe_solvers/src/solver/AugRie.hpp	/^    const int maxNumberOfNewtonIterations;$/;"	m	class:solver::AugRie
+maxNumberOfNewtonIterations	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^	const unsigned int maxNumberOfNewtonIterations; \/\/ maximum number of performed Newton iterations$/;"	m	class:solver::AugRieFun
+maxNumberOfNewtonIterations	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const int maxNumberOfNewtonIterations;$/;"	m	class:solver::AugRie_SIMD
+maxNumberOfNewtonIterationsDefault	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const int maxNumberOfNewtonIterationsDefault;$/;"	m	class:ComponentsTest
+maxNumberOfNewtonIterationsExpensive	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const int maxNumberOfNewtonIterationsExpensive;$/;"	m	class:ComponentsTest
+maxTimestep	src/blocks/SWE_Block.hh	/^    float maxTimestep;$/;"	m	class:SWE_Block
+maxWaterHeight	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const double maxWaterHeight;$/;"	m	class:ComponentsTest
+maxWaveSpeed	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const double maxWaveSpeed;$/;"	m	class:ComponentsTest
+maxWaveSpeedVariation	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const double maxWaveSpeedVariation;$/;"	m	class:ComponentsTest
+maxhd	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* maxhd;$/;"	m	class:SWE_BlockCUDA
+maxhd	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* maxhd;$/;"	m	class:SWE_RusanovBlockCUDA
+maxvd	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* maxvd;$/;"	m	class:SWE_BlockCUDA
+maxvd	src/blocks/rusanov/SWE_RusanovBlockCUDA.hh	/^    float* maxvd;$/;"	m	class:SWE_RusanovBlockCUDA
+midDelimiter	src/tools/Logger.hh	/^  const std::string midDelimiter;$/;"	m	class:tools::Logger
+middleStateSpeeds	src/solvers/AugRie.hpp	/^    T middleStateSpeeds[2];$/;"	m	class:solver::AugRie
+middleStateSpeeds	src/solvers/AugRie_SIMD.hpp	/^	real middleStateSpeeds[2];$/;"	m	class:solver::AugRie_SIMD
+middleStateSpeeds	submodules/swe_solvers/src/solver/AugRie.hpp	/^    T middleStateSpeeds[2];$/;"	m	class:solver::AugRie
+middleStateSpeeds	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real middleStateSpeeds[2];$/;"	m	class:solver::AugRie_SIMD
+middleStateSpeeds_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector middleStateSpeeds_v[2];$/;"	m	class:solver::AugRie_SIMD
+middleStateSpeeds_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector middleStateSpeeds_v[2];$/;"	m	class:solver::AugRie_SIMD
+mix	src/opengl/visualization.h	/^	static GLfloat mix(GLfloat a, GLfloat b, float factor)$/;"	f	class:Visualization
+modifyWaterScaling	src/opengl/visualization.cpp	/^void Visualization::modifyWaterScaling(float factor)$/;"	f	class:Visualization
+mySolver	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  solver::AugRie<double> mySolver;$/;"	m	class:ComponentsTest
+nX	src/writer/Writer.hh	/^    const unsigned int nX, nY;$/;"	m	class:io::Writer
+nY	src/writer/Writer.hh	/^    const unsigned int nX, nY;$/;"	m	class:io::Writer
+name	src/opengl/vbo.h	/^	GLuint name;$/;"	m	class:VBO
+ncPutAttText	src/writer/NetCdfWriter.hh	/^    void ncPutAttText(int varid, const char* name, const char *value)$/;"	f	class:io::NetCdfWriter
+neighbour	src/blocks/SWE_Block.hh	/^    const SWE_Block1D* neighbour[4];$/;"	m	class:SWE_Block
+newMouseX	src/opengl/camera.h	/^	unsigned int newMouseX, newMouseY;$/;"	m	class:Camera
+newMouseY	src/opengl/camera.h	/^	unsigned int newMouseX, newMouseY;$/;"	m	class:Camera
+newtonTol	src/solvers/AugRie.hpp	/^    const T newtonTol;$/;"	m	class:solver::AugRie
+newtonTol	src/solvers/AugRieFun.hpp	/^	const real newtonTol;    \/\/ tolerance for the Newton iterative solver$/;"	m	class:solver::AugRieFun
+newtonTol	src/solvers/AugRie_SIMD.hpp	/^	const real newtonTol;$/;"	m	class:solver::AugRie_SIMD
+newtonTol	submodules/swe_solvers/src/solver/AugRie.hpp	/^    const T newtonTol;$/;"	m	class:solver::AugRie
+newtonTol	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^	const real newtonTol;    \/\/ tolerance for the Newton iterative solver$/;"	m	class:solver::AugRieFun
+newtonTol	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const real newtonTol;$/;"	m	class:solver::AugRie_SIMD
+newtonTol	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const double newtonTol;$/;"	m	class:ComponentsTest
+nextText	src/opengl/text.h	/^	unsigned int nextText;$/;"	m	class:Text
+not_ps	src/solvers/SIMD_DEFINITIONS.hpp	/^	inline __m128 not_ps(const __m128 x) {$/;"	f
+not_ps	src/solvers/SIMD_DEFINITIONS.hpp	/^	inline __m256 not_ps(const __m256 x) {$/;"	f
+not_ps	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	inline __m128 not_ps(const __m128 x) {$/;"	f
+not_ps	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	inline __m256 not_ps(const __m256 x) {$/;"	f
+not_si128	src/solvers/SIMD_DEFINITIONS.hpp	/^	inline __m128i not_si128(const __m128i x) {$/;"	f
+not_si128	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	inline __m128i not_si128(const __m128i x) {$/;"	f
+not_si256	src/solvers/SIMD_DEFINITIONS.hpp	/^	inline __m256i not_si256(const __m256i x) {$/;"	f
+not_si256	submodules/swe_solvers/src/solver/SIMD_DEFINITIONS.hpp	/^	inline __m256i not_si256(const __m256i x) {$/;"	f
+nullMessageOutput	paraview/netcdf_swe.py	/^def nullMessageOutput(type, msg):$/;"	f
+numberOfRandomTests	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const int numberOfRandomTests;$/;"	m	class:ComponentsTest
+nx	src/blocks/SWE_Block.hh	/^    int nx;	\/\/\/< size of Cartesian arrays in x-direction$/;"	m	class:SWE_Block
+nx	src/opengl/simulation.h	/^    int nx;$/;"	m	class:Simulation
+ny	src/blocks/SWE_Block.hh	/^    int ny;	\/\/\/< size of Cartesian arrays in y-direction$/;"	m	class:SWE_Block
+ny	src/opengl/simulation.h	/^    int ny;$/;"	m	class:Simulation
+objectX	src/opengl/camera.h	/^	GLdouble objectX;$/;"	m	class:Camera
+objectY	src/opengl/camera.h	/^	GLdouble objectY;$/;"	m	class:Camera
+objectZ	src/opengl/camera.h	/^	GLdouble objectZ;$/;"	m	class:Camera
+offsetX	src/blocks/SWE_Block.hh	/^    float offsetX;	\/\/\/< x-coordinate of the origin (left-bottom corner) of the Cartesian grid$/;"	m	class:SWE_Block
+offsetX	src/writer/VtkWriter.hh	/^	float offsetX, offsetY;$/;"	m	class:io::VtkWriter
+offsetY	src/blocks/SWE_Block.hh	/^    float offsetY;	\/\/\/< y-coordinate of the origin (left-bottom corner) of the Cartesian grid$/;"	m	class:SWE_Block
+offsetY	src/writer/VtkWriter.hh	/^	float offsetX, offsetY;$/;"	m	class:io::VtkWriter
+oldMouseX	src/opengl/camera.h	/^	unsigned int oldMouseX, oldMouseY;$/;"	m	class:Camera
+oldMouseY	src/opengl/camera.h	/^	unsigned int oldMouseX, oldMouseY;$/;"	m	class:Camera
+open	src/scenarios/SWE_AsagiScenario.hh	/^	void open(const std::string &i_filename)$/;"	f	class:SWE_AsagiGrid
+openFont	src/opengl/text.h	/^	static void openFont()$/;"	f	class:Text
+openGL	build/options/SWE_gnu_cuda_asagi_openGL.py	/^openGL='yes'$/;"	v
+openGL	build/options/SWE_gnu_cuda_openGL.py	/^openGL='yes'$/;"	v
+openGL	build/options/SWE_gnu_mpi_asagi.py	/^openGL='yes'$/;"	v
+openGL_instr	build/options/SWE_gnu_cuda_asagi_openGL.py	/^openGL_instr='yes'$/;"	v
+openGL_instr	build/options/SWE_gnu_mpi_asagi.py	/^openGL_instr='yes'$/;"	v
+operator ()	src/tools/args.hh	/^		void operator()(char& c)$/;"	f	struct:tools::Args::valueConvert
+operator ()	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::operator() (){$/;"	f	class:ComponentsTest
+operator <<	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^ostream& operator<<(ostream& os, const SWE_RusanovBlock& swe) {$/;"	f
+operator []	src/tools/help.hh	/^	  inline float const* operator[](int i) const {$/;"	f	class:Float2D
+operator []	src/tools/help.hh	/^	  inline float* operator[](int i) {$/;"	f	class:Float2D
+operator []	src/tools/help.hh	/^	inline const float& operator[](int i) const {$/;"	f	class:Float1D
+operator []	src/tools/help.hh	/^	inline float& operator[](int i) { $/;"	f	class:Float1D
+operator []	src/writer/Writer.hh	/^	int operator[](unsigned int i) const$/;"	f	struct:io::BoundarySize
+operator []	src/writer/Writer.hh	/^	int& operator[](unsigned int i)$/;"	f	struct:io::BoundarySize
+optionInfo	src/tools/args.hh	/^	struct optionInfo {$/;"	s	class:tools::Args
+orient	src/opengl/camera.cpp	/^void Camera::orient( float angle_dX, float angle_dY ) $/;"	f	class:Camera
+p	buildAll.py	/^    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)$/;"	v
+panning	src/opengl/camera.cpp	/^void Camera::panning(int newX, int newY) {$/;"	f	class:Camera
+parallelization	build/options/SWE_gnu_cuda.py	/^parallelization='cuda'$/;"	v
+parallelization	build/options/SWE_gnu_cuda_asagi_openGL.py	/^parallelization='cuda'$/;"	v
+parallelization	build/options/SWE_gnu_cuda_openGL.py	/^parallelization='cuda'$/;"	v
+parallelization	build/options/SWE_gnu_mpi.py	/^parallelization='mpi'$/;"	v
+parallelization	build/options/SWE_gnu_mpi_asagi.py	/^parallelization='cuda'$/;"	v
+parallelization	build/options/SWE_gnu_mpi_with_cuda.py	/^parallelization='mpi_with_cuda'$/;"	v
+parallelization	build/options/SWE_intel_mpi.py	/^parallelization='mpi'$/;"	v
+parallelization	build/options/SWE_intel_mpi_vectorized.py	/^parallelization='mpi'$/;"	v
+parse	src/tools/args.hh	/^	Result parse(int argc, char* const* argv, bool printHelp = true)$/;"	f	class:tools::Args
+paused	src/opengl/controller.h	/^	bool paused;$/;"	m	class:Controller
+printCellSize	src/tools/Logger.hh	/^    void printCellSize( const float i_dX, const float i_dY, const std::string i_unit="m" ) {$/;"	f	class:tools::Logger
+printElementUpdatesDone	src/tools/Logger.hh	/^    void printElementUpdatesDone(unsigned int i_iterations, const int i_nX, const int i_nY, $/;"	f	class:tools::Logger
+printFinishMessage	src/tools/Logger.hh	/^    void printFinishMessage() {$/;"	f	class:tools::Logger
+printIterationsDone	src/tools/Logger.hh	/^    void printIterationsDone(unsigned int i_iterations, std::string i_iterationMessage = "iterations done")$/;"	f	class:tools::Logger
+printNumber1d	src/tools/Logger.hh	/^  void printNumber1d( const int i_nX,$/;"	f	class:tools::Logger
+printNumber2d	src/tools/Logger.hh	/^  void printNumber2d( const int i_nX,$/;"	f	class:tools::Logger
+printNumberOfBlocks	src/tools/Logger.hh	/^    void printNumberOfBlocks( const int i_nX, const int i_nY ) {$/;"	f	class:tools::Logger
+printNumberOfCells	src/tools/Logger.hh	/^    void printNumberOfCells( const int i_nX,$/;"	f	class:tools::Logger
+printNumberOfCellsPerProcess	src/tools/Logger.hh	/^    void printNumberOfCellsPerProcess( const int i_nX, const int i_nY ) {$/;"	f	class:tools::Logger
+printNumberOfProcesses	src/tools/Logger.hh	/^    void printNumberOfProcesses( const int i_numberOfProcesses,$/;"	f	class:tools::Logger
+printOutputFileCreation	src/tools/Logger.hh	/^    void printOutputFileCreation( const std::string i_fileName,$/;"	f	class:tools::Logger
+printOutputTime	src/tools/Logger.hh	/^    void printOutputTime( const float i_time,$/;"	f	class:tools::Logger
+printPercentage	src/tools/ProgressBar.hh	/^	unsigned int printPercentage(float done)$/;"	f	class:tools::ProgressBar
+printProgressBar	src/tools/ProgressBar.hh	/^	void printProgressBar(float done, unsigned int size)$/;"	f	class:tools::ProgressBar
+printRotatingBar	src/tools/ProgressBar.hh	/^	void printRotatingBar()$/;"	f	class:tools::ProgressBar
+printSimulationTime	src/tools/Logger.hh	/^    void printSimulationTime( const float i_time,$/;"	f	class:tools::Logger
+printSolverStatistics	src/tools/Logger.hh	/^    void printSolverStatistics( const long i_firstSolverCounter,$/;"	f	class:tools::Logger
+printSolverVariables	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^std::string ComponentsTest::printSolverVariables() {$/;"	f	class:ComponentsTest
+printSolverVariablesWithResults	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^std::string ComponentsTest::printSolverVariablesWithResults( const double i_hUpdateLeft,$/;"	f	class:ComponentsTest
+printStartMessage	src/tools/Logger.hh	/^    void printStartMessage( const std::string i_startMessage = "Everything is set up, starting the simulation." ) {$/;"	f	class:tools::Logger
+printStatisticsMessage	src/tools/Logger.hh	/^    void printStatisticsMessage( const std::string i_statisticsMessage="Simulation finished. Printing statistics for each process." ) {$/;"	f	class:tools::Logger
+printStats	src/solvers/Hybrid.hpp	/^    void printStats() {$/;"	f	class:solver::Hybrid
+printStats	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    void printStats() {$/;"	f	class:solver::Hybrid
+printString	src/tools/Logger.hh	/^    void printString(const std::string i_string) {$/;"	f	class:tools::Logger
+printTime	src/tools/Logger.hh	/^    void printTime(const std::string &i_name, const std::string &i_message ) {$/;"	f	class:tools::Logger
+printTimeLeft	src/tools/ProgressBar.hh	/^	unsigned int printTimeLeft(float done)$/;"	f	class:tools::ProgressBar
+printWallClockTime	src/tools/Logger.hh	/^    void printWallClockTime( const double i_wallClockTime,$/;"	f	class:tools::Logger
+printWelcomeMessage	src/tools/Logger.hh	/^    void printWelcomeMessage() {$/;"	f	class:tools::Logger
+private	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	22;"	d	file:
+private	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	24;"	d	file:
+private	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	23;"	d
+private	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	26;"	d
+processRank	src/tools/Logger.hh	/^  int processRank;$/;"	m	class:tools::Logger
+program	src/opengl/shader.h	/^	GLuint program;$/;"	m	class:Shader
+programName	src/tools/Logger.hh	/^  const std::string programName;$/;"	m	class:tools::Logger
+protected	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	24;"	d
+protected	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	27;"	d
+readShaderFile	src/opengl/shader.cpp	/^bool Shader::readShaderFile(char const * filename, GLchar * & shaderSource, GLint & length)$/;"	f	class:Shader
+readTestPhi	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^void ComponentsTest::readTestPhi() {$/;"	f	class:ComponentsTest
+read_nc_testphi	submodules/swe_solvers/unit_tests/scripts/read_nc_testphi.m	/^function[hLowVec, hHighVec, huLowVec, huHighVec] = read_nc_testphi(path)$/;"	f
+real	src/solvers/SIMD_TYPES.hpp	/^	typedef double real;$/;"	t
+real	src/solvers/SIMD_TYPES.hpp	/^	typedef float real;$/;"	t
+real	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^	typedef double real;$/;"	t
+real	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^	typedef float real;$/;"	t
+real_vector	src/solvers/SIMD_TYPES.hpp	/^		typedef __m128 real_vector;$/;"	t
+real_vector	src/solvers/SIMD_TYPES.hpp	/^		typedef __m128d real_vector;$/;"	t
+real_vector	src/solvers/SIMD_TYPES.hpp	/^		typedef __m256 real_vector;$/;"	t
+real_vector	src/solvers/SIMD_TYPES.hpp	/^		typedef __m256d real_vector;$/;"	t
+real_vector	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^		typedef __m128 real_vector;$/;"	t
+real_vector	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^		typedef __m128d real_vector;$/;"	t
+real_vector	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^		typedef __m256 real_vector;$/;"	t
+real_vector	submodules/swe_solvers/src/solver/SIMD_TYPES.hpp	/^		typedef __m256d real_vector;$/;"	t
+registerCopyLayer	src/blocks/SWE_Block.cpp	/^SWE_Block1D* SWE_Block::registerCopyLayer(BoundaryEdge edge){$/;"	f	class:SWE_Block
+renderDisplay	src/opengl/visualization.cpp	/^void Visualization::renderDisplay() {$/;"	f	class:Visualization
+renderMode	src/opengl/visualization.h	/^	RenderMode renderMode;$/;"	m	class:Visualization
+representation	paraview/netcdf_swe.py	/^representation = Show()$/;"	v
+required	src/tools/args.hh	/^		bool required;$/;"	m	struct:tools::Args::optionInfo
+reset	src/opengl/camera.cpp	/^void Camera::reset()$/;"	f	class:Camera
+resetClockToCurrentTime	src/tools/Logger.hh	/^    void resetClockToCurrentTime(const std::string &i_name) {$/;"	f	class:tools::Logger
+resizeWindow	src/opengl/visualization.cpp	/^int Visualization::resizeWindow(int newWidth, int newHeight)$/;"	f	class:Visualization
+riemannStructure	src/solvers/AugRie.hpp	/^    RiemannStructure riemannStructure;$/;"	m	class:solver::AugRie
+riemannStructure	src/solvers/AugRie_SIMD.hpp	/^	integer riemannStructure;$/;"	m	class:solver::AugRie_SIMD
+riemannStructure	submodules/swe_solvers/src/solver/AugRie.hpp	/^    RiemannStructure riemannStructure;$/;"	m	class:solver::AugRie
+riemannStructure	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	integer riemannStructure;$/;"	m	class:solver::AugRie_SIMD
+riemannStructure_v	src/solvers/AugRie_SIMD.hpp	/^	integer_vector riemannStructure_v;$/;"	m	class:solver::AugRie_SIMD
+riemannStructure_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	integer_vector riemannStructure_v;$/;"	m	class:solver::AugRie_SIMD
+rotateObject	src/opengl/camera.cpp	/^void Camera::rotateObject() {$/;"	f	class:Camera
+rows	src/tools/help.hh	/^    int rows;$/;"	m	class:Float1D
+rows	src/tools/help.hh	/^    int rows;$/;"	m	class:Float2D
+runSuite	submodules/swe_solvers/src/unit_tests/UnitTests.cpp	/^void runSuite(){$/;"	f
+scenario	src/opengl/simulation.h	/^    SWE_Scenario* scenario;$/;"	m	class:Simulation
+scenarios	src/opengl/controller.h	/^	SWE_Scenario *scenarios[SCENARIO_COUNT];$/;"	m	class:Controller
+setBathymetry	src/blocks/SWE_Block.cpp	/^void SWE_Block::setBathymetry(float (*_b)(float, float)) {$/;"	f	class:SWE_Block
+setBathymetry	src/blocks/SWE_Block.cpp	/^void SWE_Block::setBathymetry(float _b) {$/;"	f	class:SWE_Block
+setBoundaryBathymetry	src/blocks/SWE_Block.cpp	/^void SWE_Block::setBoundaryBathymetry()$/;"	f	class:SWE_Block
+setBoundaryConditions	src/blocks/SWE_Block.cpp	/^void SWE_Block::setBoundaryConditions() {$/;"	f	class:SWE_Block
+setBoundaryType	src/blocks/SWE_Block.cpp	/^void SWE_Block::setBoundaryType( const BoundaryEdge i_edge,$/;"	f	class:SWE_Block
+setBufferData	src/opengl/vbo.h	/^	void setBufferData(GLsizei size, const void* data,$/;"	f	class:VBO
+setCamera	src/opengl/camera.cpp	/^void Camera::setCamera() {$/;"	f	class:Camera
+setDischarge	src/blocks/SWE_Block.cpp	/^void SWE_Block::setDischarge(float (*_u)(float, float), float (*_v)(float, float)) {$/;"	f	class:SWE_Block
+setDryTolerance	src/solvers/WavePropagation.hpp	/^    void setDryTolerance( const T i_dryTolerance ) {$/;"	f	class:solver::WavePropagation
+setDryTolerance	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    void setDryTolerance( const T i_dryTolerance ) {$/;"	f	class:solver::WavePropagation
+setGhostLayer	src/blocks/SWE_Block.cpp	/^void SWE_Block::setGhostLayer() {$/;"	f	class:SWE_Block
+setProcessRank	src/tools/Logger.hh	/^    void setProcessRank( const int i_processRank ) {$/;"	f	class:tools::Logger
+setProjection	src/opengl/visualization.cpp	/^void Visualization::setProjection()$/;"	f	class:Visualization
+setRenderingMode	src/opengl/visualization.cpp	/^void Visualization::setRenderingMode(RenderMode mode) {$/;"	f	class:Visualization
+setUniform	src/opengl/shader.h	/^	void setUniform(GLint location, GLfloat value)$/;"	f	class:Shader
+setWaterHeight	src/blocks/SWE_Block.cpp	/^void SWE_Block::setWaterHeight(float (*_h)(float, float)) {$/;"	f	class:SWE_Block
+shadersLoaded	src/opengl/shader.cpp	/^bool Shader::shadersLoaded() {$/;"	f	class:Shader
+shdrLoaded	src/opengl/shader.h	/^	bool shdrLoaded;$/;"	m	class:Shader
+shdrSupport	src/opengl/shader.cpp	/^bool Shader::shdrSupport = false;$/;"	m	class:Shader	file:
+shdrSupport	src/opengl/shader.h	/^	static bool shdrSupport;$/;"	m	class:Shader
+showNextText	src/opengl/text.h	/^	bool showNextText(SDL_Rect &location)$/;"	f	class:Text
+simulate	src/blocks/SWE_Block.cpp	/^SWE_Block::simulate (float i_tStart, float i_tEnd)$/;"	f	class:SWE_Block
+simulate	src/blocks/SWE_WavePropagationBlockSIMD.cpp	/^SWE_WavePropagationBlockSIMD::simulate (float i_tStart, float i_tEnd)$/;"	f	class:SWE_WavePropagationBlockSIMD
+simulate	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^float SWE_RusanovBlock::simulate(float tStart, float tEnd) {$/;"	f	class:SWE_RusanovBlock
+simulateTimestep	src/blocks/SWE_Block.cpp	/^SWE_Block::simulateTimestep (float dt)$/;"	f	class:SWE_Block
+simulateTimestep	src/blocks/SWE_WavePropagationBlockSIMD.cpp	/^SWE_WavePropagationBlockSIMD::simulateTimestep (float dt)$/;"	f	class:SWE_WavePropagationBlockSIMD
+simulateTimestep	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^void SWE_RusanovBlock::simulateTimestep(float dt) {$/;"	f	class:SWE_RusanovBlock
+simulation	src/opengl/controller.h	/^	Simulation* simulation;$/;"	m	class:Controller
+simulationArea	src/scenarios/SWE_AsagiScenario.hh	/^   float simulationArea[4];$/;"	m	class:SWE_AsagiScenario
+solveLinearEquation	src/solvers/AugRie.hpp	/^    static inline void solveLinearEquation( const T i_matrix[3][3],$/;"	f	class:solver::AugRie
+solveLinearEquation	src/solvers/AugRie_SIMD.hpp	/^	solveLinearEquation (const real i_matrix[3][3],$/;"	f	class:solver::AugRie_SIMD
+solveLinearEquation	submodules/swe_solvers/src/solver/AugRie.hpp	/^    static inline void solveLinearEquation( const T i_matrix[3][3],$/;"	f	class:solver::AugRie
+solveLinearEquation	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	solveLinearEquation (const real i_matrix[3][3],$/;"	f	class:solver::AugRie_SIMD
+solveLinearEquation_SIMD	src/solvers/AugRie_SIMD.hpp	/^	solveLinearEquation_SIMD ($/;"	f	class:solver::AugRie_SIMD
+solveLinearEquation_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	solveLinearEquation_SIMD ($/;"	f	class:solver::AugRie_SIMD
+solver	build/options/SWE_gnu.py	/^solver='fwave'$/;"	v
+solver	build/options/SWE_gnu_cuda.py	/^solver='fwave'$/;"	v
+solver	build/options/SWE_gnu_cuda_asagi_openGL.py	/^solver='augrie'$/;"	v
+solver	build/options/SWE_gnu_cuda_openGL.py	/^solver='fwave'$/;"	v
+solver	build/options/SWE_gnu_mpi.py	/^solver='fwave'$/;"	v
+solver	build/options/SWE_gnu_mpi_asagi.py	/^solver='fwave'$/;"	v
+solver	build/options/SWE_gnu_mpi_with_cuda.py	/^solver='fwave'$/;"	v
+solver	build/options/SWE_intel_mpi.py	/^solver='fwave'$/;"	v
+solver	build/options/SWE_intel_mpi_vectorized.py	/^solver='fwavevec'$/;"	v
+solver	src/solvers/AugRie.hpp	/^namespace solver {$/;"	n
+solver	src/solvers/AugRieFun.hpp	/^namespace solver$/;"	n
+solver	src/solvers/AugRie_SIMD.hpp	/^namespace solver {$/;"	n
+solver	src/solvers/FWave.hpp	/^namespace solver {$/;"	n
+solver	src/solvers/FWaveVec.hpp	/^namespace solver$/;"	n
+solver	src/solvers/Hybrid.hpp	/^namespace solver {$/;"	n
+solver	src/solvers/WavePropagation.hpp	/^namespace solver {$/;"	n
+solver	submodules/swe_solvers/src/solver/AugRie.hpp	/^namespace solver {$/;"	n
+solver	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^namespace solver$/;"	n
+solver	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^namespace solver {$/;"	n
+solver	submodules/swe_solvers/src/solver/FWave.hpp	/^namespace solver {$/;"	n
+solver	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^namespace solver$/;"	n
+solver	submodules/swe_solvers/src/solver/Hybrid.hpp	/^namespace solver {$/;"	n
+solver	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^namespace solver {$/;"	n
+sources	paraview/netcdf_swe.py	/^sources = []$/;"	v
+sqrt_g	src/solvers/AugRie.hpp	/^    T sqrt_g;$/;"	m	class:solver::AugRie
+sqrt_g	src/solvers/AugRieFun.hpp	/^	const real sqrt_g;       \/\/ square root of the gravity constant $/;"	m	class:solver::AugRieFun
+sqrt_g	src/solvers/AugRie_SIMD.hpp	/^	const real sqrt_g;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g	submodules/swe_solvers/src/solver/AugRie.hpp	/^    T sqrt_g;$/;"	m	class:solver::AugRie
+sqrt_g	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^	const real sqrt_g;       \/\/ square root of the gravity constant $/;"	m	class:solver::AugRieFun
+sqrt_g	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const real sqrt_g;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_hLeft	src/solvers/AugRie.hpp	/^    T sqrt_g_hLeft;$/;"	m	class:solver::AugRie
+sqrt_g_hLeft	src/solvers/AugRie.hpp	1117;"	d
+sqrt_g_hLeft	src/solvers/AugRie_SIMD.hpp	/^	real sqrt_g_hLeft;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_hLeft	submodules/swe_solvers/src/solver/AugRie.hpp	/^    T sqrt_g_hLeft;$/;"	m	class:solver::AugRie
+sqrt_g_hLeft	submodules/swe_solvers/src/solver/AugRie.hpp	1117;"	d
+sqrt_g_hLeft	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real sqrt_g_hLeft;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_hLeft_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector sqrt_g_hLeft_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_hLeft_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector sqrt_g_hLeft_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_hRight	src/solvers/AugRie.hpp	/^    T sqrt_g_hRight;$/;"	m	class:solver::AugRie
+sqrt_g_hRight	src/solvers/AugRie.hpp	1118;"	d
+sqrt_g_hRight	src/solvers/AugRie_SIMD.hpp	/^	real sqrt_g_hRight;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_hRight	submodules/swe_solvers/src/solver/AugRie.hpp	/^    T sqrt_g_hRight;$/;"	m	class:solver::AugRie
+sqrt_g_hRight	submodules/swe_solvers/src/solver/AugRie.hpp	1118;"	d
+sqrt_g_hRight	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real sqrt_g_hRight;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_hRight_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector sqrt_g_hRight_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_hRight_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector sqrt_g_hRight_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_v	src/solvers/AugRie_SIMD.hpp	/^	const real_vector sqrt_g_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_g_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const real_vector sqrt_g_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_gravity	src/solvers/FWaveVec.hpp	/^	const T sqrt_gravity; \/\/ square root of the gravity constant $/;"	m	class:solver::FWaveVec
+sqrt_gravity	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^	const T sqrt_gravity; \/\/ square root of the gravity constant $/;"	m	class:solver::FWaveVec
+sqrt_hLeft	src/solvers/AugRie.hpp	/^    T sqrt_hLeft;$/;"	m	class:solver::AugRie
+sqrt_hLeft	src/solvers/AugRie.hpp	1119;"	d
+sqrt_hLeft	src/solvers/AugRie_SIMD.hpp	/^	real sqrt_hLeft;$/;"	m	class:solver::AugRie_SIMD
+sqrt_hLeft	submodules/swe_solvers/src/solver/AugRie.hpp	/^    T sqrt_hLeft;$/;"	m	class:solver::AugRie
+sqrt_hLeft	submodules/swe_solvers/src/solver/AugRie.hpp	1119;"	d
+sqrt_hLeft	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real sqrt_hLeft;$/;"	m	class:solver::AugRie_SIMD
+sqrt_hLeft_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector sqrt_hLeft_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_hLeft_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector sqrt_hLeft_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_hRight	src/solvers/AugRie.hpp	/^    T sqrt_hRight;$/;"	m	class:solver::AugRie
+sqrt_hRight	src/solvers/AugRie.hpp	1120;"	d
+sqrt_hRight	src/solvers/AugRie_SIMD.hpp	/^	real sqrt_hRight;$/;"	m	class:solver::AugRie_SIMD
+sqrt_hRight	submodules/swe_solvers/src/solver/AugRie.hpp	/^    T sqrt_hRight;$/;"	m	class:solver::AugRie
+sqrt_hRight	submodules/swe_solvers/src/solver/AugRie.hpp	1120;"	d
+sqrt_hRight	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real sqrt_hRight;$/;"	m	class:solver::AugRie_SIMD
+sqrt_hRight_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector sqrt_hRight_v;$/;"	m	class:solver::AugRie_SIMD
+sqrt_hRight_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector sqrt_hRight_v;$/;"	m	class:solver::AugRie_SIMD
+startPanning	src/opengl/camera.cpp	/^void Camera::startPanning(int xPos, int yPos) {$/;"	f	class:Camera
+startTextMode	src/opengl/text.h	/^	void startTextMode()$/;"	f	class:Text
+storeParameters	src/solvers/WavePropagation.hpp	/^    inline void storeParameters( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::WavePropagation
+storeParameters	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    inline void storeParameters( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::WavePropagation
+stride	src/tools/help.hh	/^    int stride;$/;"	m	class:Float1D
+synchAfterWrite	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchAfterWrite() {$/;"	f	class:SWE_Block
+synchBathymetryAfterWrite	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchBathymetryAfterWrite() {}$/;"	f	class:SWE_Block
+synchBathymetryBeforeRead	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchBathymetryBeforeRead() {}$/;"	f	class:SWE_Block
+synchBeforeRead	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchBeforeRead() {$/;"	f	class:SWE_Block
+synchCopyLayerBeforeRead	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchCopyLayerBeforeRead() {}$/;"	f	class:SWE_Block
+synchDischargeAfterWrite	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchDischargeAfterWrite() {}$/;"	f	class:SWE_Block
+synchDischargeBeforeRead	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchDischargeBeforeRead() {}$/;"	f	class:SWE_Block
+synchGhostLayerAfterWrite	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchGhostLayerAfterWrite() {}$/;"	f	class:SWE_Block
+synchWaterHeightAfterWrite	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchWaterHeightAfterWrite() {}$/;"	f	class:SWE_Block
+synchWaterHeightBeforeRead	src/blocks/SWE_Block.cpp	/^void SWE_Block::synchWaterHeightBeforeRead() {}$/;"	f	class:SWE_Block
+table	paraview/netcdf_swe.py	/^table = GetLookupTableForArray( "Result", 1, RGBPoints=[-1.0, 0.23, 0.299, 0.754, 2.0, 0.706, 0.016, 0.15], VectorMode='Magnitude', NanColor=[0.25, 0.0, 0.0], ColorSpace='Diverging', ScalarRangeInitialized=1.0, LockScalarRange=1 )$/;"	v
+testFileName	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const std::string testFileName;$/;"	m	class:ComponentsTest
+testPhi	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  double** testPhi;$/;"	m	class:ComponentsTest
+testPhiRandomSamples	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const int testPhiRandomSamples;$/;"	m	class:ComponentsTest
+testPhiSize	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const int testPhiSize;$/;"	m	class:ComponentsTest
+testPhiWallSamples	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const int testPhiWallSamples;$/;"	m	class:ComponentsTest
+text	src/opengl/visualization.h	/^	Text* text;$/;"	m	class:Visualization
+textures	src/opengl/text.h	/^	std::vector<GLuint> textures;$/;"	m	class:Text
+timeCout	src/tools/Logger.hh	/^  std::ostream& timeCout() {$/;"	f	class:tools::Logger
+timeStep	src/writer/Writer.hh	/^    size_t timeStep;$/;"	m	class:io::Writer
+timeVar	src/writer/NetCdfWriter.hh	/^    int timeVar, hVar, huVar, hvVar, bVar;$/;"	m	class:io::NetCdfWriter
+time_needed	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	double time_needed;$/;"	m	class:SWE_WavePropagationBlockSIMD
+timer	src/tools/Logger.hh	/^  std::map<std::string, double> timer;$/;"	m	class:tools::Logger
+toggleRenderingMode	src/opengl/visualization.cpp	/^void Visualization::toggleRenderingMode() {$/;"	f	class:Visualization
+toogleLoop	src/opengl/simulation.h	/^    void toogleLoop() { loop = !loop; }$/;"	f	class:Simulation
+tools	src/tools/Logger.hh	/^namespace tools {$/;"	n
+tools	src/tools/ProgressBar.hh	/^namespace tools$/;"	n
+tools	src/tools/args.hh	/^namespace tools$/;"	n
+topCopyLayer	src/blocks/cuda/SWE_BlockCUDA.hh	/^    SWE_Block1D* topCopyLayer;$/;"	m	class:SWE_BlockCUDA
+topGhostLayer	src/blocks/cuda/SWE_BlockCUDA.hh	/^    SWE_Block1D* topGhostLayer;$/;"	m	class:SWE_BlockCUDA
+topLayer	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* topLayer;$/;"	m	class:SWE_BlockCUDA
+topLayerDevice	src/blocks/cuda/SWE_BlockCUDA.hh	/^    float* topLayerDevice;$/;"	m	class:SWE_BlockCUDA
+uLeft	src/solvers/WavePropagation.hpp	/^    T uLeft;$/;"	m	class:solver::WavePropagation
+uLeft	src/solvers/WavePropagation.hpp	221;"	d
+uLeft	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T uLeft;$/;"	m	class:solver::WavePropagation
+uLeft	submodules/swe_solvers/src/solver/WavePropagation.hpp	221;"	d
+uLeft	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  double hLeft, hRight, uLeft, uRight;$/;"	m	class:ComponentsTest
+uLeft_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector uLeft_v;$/;"	m	class:solver::AugRie_SIMD
+uLeft_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector uLeft_v;$/;"	m	class:solver::AugRie_SIMD
+uRight	src/solvers/WavePropagation.hpp	/^    T uRight;$/;"	m	class:solver::WavePropagation
+uRight	src/solvers/WavePropagation.hpp	222;"	d
+uRight	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    T uRight;$/;"	m	class:solver::WavePropagation
+uRight	submodules/swe_solvers/src/solver/WavePropagation.hpp	222;"	d
+uRight	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  double hLeft, hRight, uLeft, uRight;$/;"	m	class:ComponentsTest
+uRight_v	src/solvers/AugRie_SIMD.hpp	/^	real_vector uRight_v;$/;"	m	class:solver::AugRie_SIMD
+uRight_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	real_vector uRight_v;$/;"	m	class:solver::AugRie_SIMD
+update	src/tools/ProgressBar.hh	/^	void update(float done)$/;"	f	class:tools::ProgressBar
+updateBathymetryVBO	src/opengl/visualization.cpp	/^void Visualization::updateBathymetryVBO(Simulation &sim) {$/;"	f	class:Visualization
+updateBathymetryWithDynamicDisplacement	src/blocks/SWE_WaveAccumulationBlock.cpp	/^bool SWE_WaveAccumulationBlock::updateBathymetryWithDynamicDisplacement(scenarios::Asagi &i_asagiScenario, const float i_time) {$/;"	f	class:SWE_WaveAccumulationBlock
+updateBathymetryWithDynamicDisplacement	src/blocks/SWE_WavePropagationBlockSIMD.cpp	/^SWE_WavePropagationBlockSIMD::updateBathymetryWithDynamicDisplacement (scenarios::Asagi &i_asagiScenario, const float i_time)$/;"	f	class:SWE_WavePropagationBlockSIMD
+updateTime	src/tools/Logger.hh	/^    void updateTime(const std::string &i_name) {$/;"	f	class:tools::Logger
+updateUnknowns	src/blocks/SWE_WaveAccumulationBlock.cpp	/^void SWE_WaveAccumulationBlock::updateUnknowns(float dt) {$/;"	f	class:SWE_WaveAccumulationBlock
+updateUnknowns	src/blocks/SWE_WavePropagationBlock.cpp	/^SWE_WavePropagationBlock::updateUnknowns (float dt)$/;"	f	class:SWE_WavePropagationBlock
+updateUnknowns	src/blocks/SWE_WavePropagationBlockSIMD.cpp	/^SWE_WavePropagationBlockSIMD::updateUnknowns (float dt)$/;"	f	class:SWE_WavePropagationBlockSIMD
+updateUnknowns	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^void SWE_RusanovBlock::updateUnknowns(float dt) {$/;"	f	class:SWE_RusanovBlock
+useAugmentedRiemannSolver	src/solvers/Hybrid.hpp	/^    bool useAugmentedRiemannSolver( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::Hybrid
+useAugmentedRiemannSolver	submodules/swe_solvers/src/solver/Hybrid.hpp	/^    bool useAugmentedRiemannSolver( const T &i_hLeft,  const T &i_hRight,$/;"	f	class:solver::Hybrid
+value	src/tools/args.hh	/^		std::string value;$/;"	m	struct:tools::Args::optionInfo
+valueConvert	src/tools/args.hh	/^	struct valueConvert {$/;"	s	class:tools::Args
+vars	buildAll.py	/^vars = collections.OrderedDict({$/;"	v
+vboBathColor	src/opengl/visualization.h	/^	VBO vboBathColor;$/;"	m	class:Visualization
+vboBathymetry	src/opengl/visualization.h	/^	VBO vboBathymetry;$/;"	m	class:Visualization
+vboNormals	src/opengl/visualization.h	/^	VBO vboNormals;$/;"	m	class:Visualization
+vboVerticesIndex	src/opengl/visualization.h	/^	VBO vboVerticesIndex;$/;"	m	class:Visualization
+vboWaterSurface	src/opengl/visualization.h	/^	VBO vboWaterSurface;$/;"	m	class:Visualization
+vectorize	build/options/SWE_intel_mpi_vectorized.py	/^vectorize='on'$/;"	v
+vertexShader	src/opengl/shader.h	/^	GLuint   vertexShader;$/;"	m	class:Shader
+vertexShaderLength	src/opengl/shader.h	/^	GLint    vertexShaderLength;$/;"	m	class:Shader
+vertexShaderSource	src/opengl/shader.h	/^	GLchar * vertexShaderSource;$/;"	m	class:Shader
+viewDistance	src/opengl/camera.cpp	/^void Camera::viewDistance( float viewDistance )$/;"	f	class:Camera
+view_distance	src/opengl/camera.h	/^	float view_distance;$/;"	m	class:Camera
+visInfos	src/opengl/controller.h	/^	SWE_VisInfo *visInfos[SCENARIO_COUNT];$/;"	m	class:Controller
+visualization	src/opengl/controller.h	/^	Visualization* visualization;$/;"	m	class:Controller
+wScale	src/opengl/visualization.h	/^	float wScale, bScale, bOffset;$/;"	m	class:Visualization
+wScaleLocation	src/opengl/visualization.h	/^	GLint wScaleLocation;$/;"	m	class:Visualization
+wallClockTime	src/tools/Logger.hh	/^  double wallClockTime;$/;"	m	class:tools::Logger
+waterHeightAtRest	src/scenarios/SWE_Scenario.hh	/^    virtual float waterHeightAtRest() { return 10.0f; };$/;"	f	class:SWE_Scenario
+waterHeightAtRest	src/scenarios/SWE_simple_scenarios.hh	/^    float waterHeightAtRest() { return 4.0f; };$/;"	f	class:SWE_SplashingConeScenario
+waterShader	src/opengl/visualization.h	/^	Shader* waterShader;$/;"	m	class:Visualization
+waterVerticalScaling	src/scenarios/SWE_AsagiScenario_vis.hh	/^    virtual float waterVerticalScaling() { return 4.0f; };$/;"	f	class:SWE_AsagiJapanSmallVisInfo
+waterVerticalScaling	src/scenarios/SWE_VisInfo.hh	/^    virtual float waterVerticalScaling() { return 10.0f; };$/;"	f	class:SWE_VisInfo
+wavePropagationSolver	src/blocks/SWE_WaveAccumulationBlock.hh	/^    solver::AugRieFun<float> wavePropagationSolver;$/;"	m	class:SWE_WaveAccumulationBlock
+wavePropagationSolver	src/blocks/SWE_WavePropagationBlock.hh	/^    solver::Hybrid<float> wavePropagationSolver;$/;"	m	class:SWE_WavePropagationBlock
+wavePropagationSolver	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	solver::FWave<float> wavePropagationSolver;$/;"	m	class:SWE_WavePropagationBlockSIMD
+welcomeMessage	src/tools/Logger.hh	/^  const std::string welcomeMessage;$/;"	m	class:tools::Logger
+wetDryState	src/solvers/WavePropagation.hpp	/^    WetDryState wetDryState;$/;"	m	class:solver::WavePropagation
+wetDryState	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    WetDryState wetDryState;$/;"	m	class:solver::WavePropagation
+wetDryState_v	src/solvers/AugRie_SIMD.hpp	/^	integer_vector wetDryState_v;$/;"	m	class:solver::AugRie_SIMD
+wetDryState_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	integer_vector wetDryState_v;$/;"	m	class:solver::AugRie_SIMD
+width	src/opengl/text.h	/^	std::vector<int> width;$/;"	m	class:Text
+win_title	src/opengl/camera.h	/^	const char* win_title;$/;"	m	class:Camera
+windowHeight	src/opengl/visualization.h	/^	int windowHeight;$/;"	m	class:Visualization
+windowWidth	src/opengl/visualization.h	/^	int windowWidth;$/;"	m	class:Visualization
+writeNetCDF	build/options/SWE_gnu_cuda_asagi_openGL.py	/^writeNetCDF='yes'$/;"	v
+writeNetCDF	build/options/SWE_gnu_mpi.py	/^writeNetCDF='yes'$/;"	v
+writeNetCDF	build/options/SWE_gnu_mpi_with_cuda.py	/^writeNetCDF='yes'$/;"	v
+writeNetCDF	build/options/SWE_intel_mpi.py	/^writeNetCDF='yes'$/;"	v
+writeNetCDF	build/options/SWE_intel_mpi_vectorized.py	/^writeNetCDF='yes'$/;"	v
+writeTimeStep	src/writer/NetCdfWriter.cpp	/^void io::NetCdfWriter::writeTimeStep( const Float2D &i_h,$/;"	f	class:io::NetCdfWriter
+writeTimeStep	src/writer/VtkWriter.cpp	/^void io::VtkWriter::writeTimeStep($/;"	f	class:io::VtkWriter
+writeVarTimeDependent	src/writer/NetCdfWriter.cpp	/^void io::NetCdfWriter::writeVarTimeDependent( const Float2D &i_matrix,$/;"	f	class:io::NetCdfWriter
+writeVarTimeIndependent	src/writer/NetCdfWriter.cpp	/^void io::NetCdfWriter::writeVarTimeIndependent( const Float2D &i_matrix,$/;"	f	class:io::NetCdfWriter
+zeroTol	src/solvers/AugRieFun.hpp	/^	const real zeroTol;$/;"	m	class:solver::AugRieFun
+zeroTol	src/solvers/FWaveCuda.h	/^const T zeroTol = (T) 0.0000001;$/;"	v
+zeroTol	src/solvers/FWaveCuda.h	340;"	d
+zeroTol	src/solvers/FWaveVec.hpp	/^	const T zeroTol;$/;"	m	class:solver::FWaveVec
+zeroTol	src/solvers/WavePropagation.hpp	/^    const T zeroTol;$/;"	m	class:solver::WavePropagation
+zeroTol	submodules/swe_solvers/src/solver/AugRieFun.hpp	/^	const real zeroTol;$/;"	m	class:solver::AugRieFun
+zeroTol	submodules/swe_solvers/src/solver/FWaveCuda.h	/^const T zeroTol = (T) 0.0000001;$/;"	v
+zeroTol	submodules/swe_solvers/src/solver/FWaveCuda.h	340;"	d
+zeroTol	submodules/swe_solvers/src/solver/FWaveVec.hpp	/^	const T zeroTol;$/;"	m	class:solver::FWaveVec
+zeroTol	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    const T zeroTol;$/;"	m	class:solver::WavePropagation
+zeroTol	submodules/swe_solvers/src/unit_tests/ComponentsTest.h	/^  const double zeroTol;$/;"	m	class:ComponentsTest
+zeroTol_v	src/solvers/AugRie_SIMD.hpp	/^	const real_vector zeroTol_v;$/;"	m	class:solver::AugRie_SIMD
+zeroTol_v	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const real_vector zeroTol_v;$/;"	m	class:solver::AugRie_SIMD
+zeroTol_v_neg	src/solvers/AugRie_SIMD.hpp	/^	const real_vector zeroTol_v_neg;$/;"	m	class:solver::AugRie_SIMD
+zeroTol_v_neg	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	const real_vector zeroTol_v_neg;$/;"	m	class:solver::AugRie_SIMD
+zoomIn	src/opengl/camera.cpp	/^void Camera::zoomIn( float scaleFactor ) $/;"	f	class:Camera
+zoomOut	src/opengl/camera.cpp	/^void Camera::zoomOut( float scaleFactor ) $/;"	f	class:Camera
+zoomfactor	src/opengl/camera.h	/^	float zoomfactor;$/;"	m	class:Camera
+~AugRie_SIMD	src/solvers/AugRie_SIMD.hpp	/^	~AugRie_SIMD ()$/;"	f	class:solver::AugRie_SIMD
+~AugRie_SIMD	submodules/swe_solvers/src/solver/AugRie_SIMD.hpp	/^	~AugRie_SIMD ()$/;"	f	class:solver::AugRie_SIMD
+~ComponentsTest	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^ComponentsTest::~ComponentsTest() {$/;"	f	class:ComponentsTest
+~Controller	src/opengl/controller.cpp	/^Controller::~Controller()$/;"	f	class:Controller
+~Float1D	src/tools/help.hh	/^	~Float1D()$/;"	f	class:Float1D
+~Float2D	src/tools/help.hh	/^	  ~Float2D() {$/;"	f	class:Float2D
+~Logger	src/tools/Logger.hh	/^    virtual ~Logger() {$/;"	f	class:tools::Logger
+~NetCdfWriter	src/writer/NetCdfWriter.cpp	/^io::NetCdfWriter::~NetCdfWriter() {$/;"	f	class:io::NetCdfWriter
+~SWE_AsagiScenario	src/scenarios/SWE_AsagiScenario.hh	/^    virtual ~SWE_AsagiScenario() {$/;"	f	class:SWE_AsagiScenario
+~SWE_Block	src/blocks/SWE_Block.cpp	/^SWE_Block::~SWE_Block() {$/;"	f	class:SWE_Block
+~SWE_RusanovBlock	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^SWE_RusanovBlock::~SWE_RusanovBlock() {$/;"	f	class:SWE_RusanovBlock
+~SWE_Scenario	src/scenarios/SWE_Scenario.hh	/^    virtual ~SWE_Scenario() {};$/;"	f	class:SWE_Scenario
+~SWE_VisInfo	src/scenarios/SWE_VisInfo.hh	/^	virtual ~SWE_VisInfo() {};$/;"	f	class:SWE_VisInfo
+~SWE_WaveAccumulationBlock	src/blocks/SWE_WaveAccumulationBlock.hh	/^    virtual ~SWE_WaveAccumulationBlock() {}$/;"	f	class:SWE_WaveAccumulationBlock
+~SWE_WavePropagationBlock	src/blocks/SWE_WavePropagationBlock.hh	/^    virtual ~SWE_WavePropagationBlock() {}$/;"	f	class:SWE_WavePropagationBlock
+~SWE_WavePropagationBlockSIMD	src/blocks/SWE_WavePropagationBlockSIMD.hh	/^	~SWE_WavePropagationBlockSIMD ()$/;"	f	class:SWE_WavePropagationBlockSIMD
+~Shader	src/opengl/shader.cpp	/^Shader::~Shader() {$/;"	f	class:Shader
+~Text	src/opengl/text.h	/^	~Text()$/;"	f	class:Text
+~Visualization	src/opengl/visualization.cpp	/^Visualization::~Visualization() {$/;"	f	class:Visualization
+~WavePropagation	src/solvers/WavePropagation.hpp	/^    virtual ~WavePropagation() {};$/;"	f	class:solver::WavePropagation
+~WavePropagation	submodules/swe_solvers/src/solver/WavePropagation.hpp	/^    virtual ~WavePropagation() {};$/;"	f	class:solver::WavePropagation
+~Writer	src/writer/Writer.hh	/^	virtual ~Writer() {}$/;"	f	class:io::Writer

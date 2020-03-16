@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/thesis/SWE/build
+rm output/*
+./SWE_gnu_release_none_fwave -x 320 -y 320 -o output/testrun
