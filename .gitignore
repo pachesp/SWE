@@ -1,7 +1,10 @@
 build/build_SWE_*
 build/SWE_*
-
+output/
 documentation/doxy/
+.tags
+*log
+build/precice-Solver*
 
 *.pyc
 .sconsign.dblite
