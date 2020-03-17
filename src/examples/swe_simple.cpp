@@ -233,7 +233,7 @@ int main( int argc, char** argv ) {
     while( l_t < l_checkPoints[c] ) {
       // set values in ghost cells:
       l_wavePropgationBlock.setGhostLayer();
-      
+
       // reset the cpu clock
       tools::Logger::logger.resetClockToCurrentTime("Cpu");
 
@@ -255,6 +255,7 @@ int main( int argc, char** argv ) {
       tools::Logger::logger.updateTime("Cpu");
 
       // update simulation time with time step width.
+      // std::cout << "****************"<<l_maxTimeStepWidth << '\n';
       l_t += l_maxTimeStepWidth;
       l_iterations++;
 

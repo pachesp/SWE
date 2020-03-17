@@ -1,5 +1,7 @@
 #!/bin/bash
 
 cd ~/thesis/SWE
-rm build/build_SWE_gnu_release_none_fwave/ build/SWE_gnu_release_none_fwave_1 build/SWE_gnu_release_none_fwave_2  build/output/* -rf
-rm build/build_SWE_gnu_debug_none_fwave/ build/SWE_gnu_debug_none_fwave_1 build/SWE_gnu_debug_none_fwave_2  build/output/* -rf
+rm build/build_SWE_gnu_release_none_fwave/ build/SWE_gnu_release_none_fwave build/SWE_gnu_release_none_fwave_1 build/SWE_gnu_release_none_fwave_2  build/output/* -rf
+rm build/build_SWE_gnu_debug_none_fwave/ build/SWE_gnu_debug_none_fwave build/SWE_gnu_debug_none_fwave_1 build/SWE_gnu_debug_none_fwave_2  build/output/* -rf
+rm build/precice-run -rf
+rm build/precice-Solver*
