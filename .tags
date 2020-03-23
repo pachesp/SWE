@@ -755,7 +755,7 @@ complexsteadystatewave	src/solvers/AugRie.hpp	1124;"	d
 complexsteadystatewave	submodules/swe_solvers/src/solver/AugRie.hpp	1124;"	d
 computeBathymetrySources	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^void SWE_RusanovBlock::computeBathymetrySources() {$/;"	f	class:SWE_RusanovBlock
 computeCapability	build/options/SWE_gnu_cuda.py	/^computeCapability='sm_21'$/;"	v
-computeCapability	build/options/SWE_gnu_cuda_openGL.py	/^computeCapability='sm_21'$/;"	v
+computeCapability	build/options/SWE_gnu_cuda_openGL.py	/^computeCapability='sm_35'$/;"	v
 computeCapability	build/options/SWE_gnu_mpi_asagi.py	/^computeCapability='sm_21'$/;"	v
 computeCapability	build/options/SWE_gnu_mpi_with_cuda.py	/^computeCapability='sm_21'$/;"	v
 computeFlux	src/blocks/rusanov/SWE_RusanovBlock.cpp	/^float SWE_RusanovBlock::computeFlux(float fLow, float fHigh, float xiLow, float xiHigh,$/;"	f	class:SWE_RusanovBlock
@@ -818,6 +818,7 @@ createIndicesVBO	src/opengl/visualization.cpp	/^void Visualization::createIndice
 createRandomNumber	submodules/swe_solvers/src/unit_tests/ComponentsTest.cpp	/^double ComponentsTest::createRandomNumber( const double i_min, const double i_max) {$/;"	f	class:ComponentsTest
 createVertexVBO	src/opengl/visualization.cpp	/^void Visualization::createVertexVBO(VBO &vbo, struct cudaGraphicsResource *&vbo_res,$/;"	f	class:Visualization
 create_nc_testphi	submodules/swe_solvers/unit_tests/scripts/create_nc_testphi.m	/^function[size] = create_nc_testphi(path)$/;"	f
+cudaToolkitDir	build/options/SWE_gnu_cuda_openGL.py	/^cudaToolkitDir='\/usr\/lib'$/;"	v
 cuda_vbo_normals	src/opengl/visualization.h	/^	struct cudaGraphicsResource* cuda_vbo_normals;$/;"	m	class:Visualization	typeref:struct:Visualization::cudaGraphicsResource
 cuda_vbo_watersurface	src/opengl/visualization.h	/^	struct cudaGraphicsResource* cuda_vbo_watersurface;$/;"	m	class:Visualization	typeref:struct:Visualization::cudaGraphicsResource
 curTime	src/opengl/simulation.h	/^    float curTime;$/;"	m	class:Simulation

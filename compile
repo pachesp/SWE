@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd ~/thesis/SWE
-sh ./delete
-scons buildVariablesFile=build/options/SWE_gnu.py
+# sh ./delete
+scons buildVariablesFile=build/options/SWE_gnu_cuda_openGL.py

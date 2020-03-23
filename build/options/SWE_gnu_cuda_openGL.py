@@ -32,8 +32,8 @@ solver='fwave'
 openGL='yes'
 
 # Hardware settings
-computeCapability='sm_21'
+computeCapability='sm_35'
 
 # Library paths (only required of not installed in default path)
-#libSDLDir=''
-#cudaToolkitDir=''
+# libSDLDir='/usr/include'
+cudaToolkitDir='/usr/lib'
