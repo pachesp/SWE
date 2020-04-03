@@ -110,7 +110,7 @@ int main( int argc, char** argv ) {
   SWE_FranciscoScenario l_scenario;
 
   //! number of checkpoints for visualization (at each checkpoint in time, an output file is written).
-  int l_numberOfCheckPoints = 100;
+  int l_numberOfCheckPoints = l_scenario.checkpointsNumber(); 
 
   //! size of a single cell in x- and y-direction
   float l_dX, l_dY;

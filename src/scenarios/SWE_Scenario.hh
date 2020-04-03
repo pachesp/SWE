@@ -65,6 +65,7 @@ class SWE_Scenario {
 
     // virtual float endSimulation() { return 0.1f; };
     virtual float endSimulation() { return 100.f; };
+    virtual int checkpointsNumber(){return 10;}
 
 
     virtual BoundaryType getBoundaryType(BoundaryEdge edge) { return WALL; };
