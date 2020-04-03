@@ -47,6 +47,14 @@
 using namespace precice;
 using namespace precice::constants;
 
+void recv_preCICE(SolverInterface&  interface, SWE_WavePropagationBlock&  l_wavePropgationBlock,
+  SWE_Scenario&  l_scenario, int* vertexIDs, int valueID, double* valueP, int size ){
+
+  interface.readBlockScalarData(valueID, size, vertexIDs, valueP);
+  SWE_Block1D preCICEdata{ doublePointer2floatPointer(valueP, size), NULL, NULL, size };
+  l_wavePropgationBlock.setBoundaryType(BND_LEFT, l_scenario.getBoundaryType(BND_LEFT), &preCICEdata);
+
+}
 
 /**
  * Main program for the simulation on a single SWE_WavePropagationBlock.
@@ -203,20 +211,8 @@ int main( int argc, char** argv ) {
     if(l_t < l_checkPoints[c]){
 
       //***************preCICE**************************
-        interface.readBlockScalarData(heightId, (l_nY + 2), vertexIDs, height_db);
-        // interface.readBlockScalarData(huId, (l_nY + 2), vertexIDs, hu_db);
-        // interface.readBlockScalarData(hvId, (l_nY + 2), vertexIDs, hv_db);
-
-      // SWE_Block1D preCICEdata{ doublePointer2floatPointer(height_db, l_nY + 2),
-      //                   doublePointer2floatPointer(hu_db, l_nY + 2),
-      //                   doublePointer2floatPointer(hv_db, l_nY + 2), l_nY + 2 };
-
-        SWE_Block1D preCICEdata{ doublePointer2floatPointer(height_db, l_nY + 2),
-                          NULL,
-                          NULL, l_nY + 2 };
-
-        l_wavePropgationBlock.setBoundaryType(BND_LEFT, l_scenario.getBoundaryType(BND_LEFT), &preCICEdata);
-        //***************preCICE**************************
+      recv_preCICE(interface, l_wavePropgationBlock, l_scenario, vertexIDs, heightId, height_db, l_nY + 2 );
+      //***************preCICE**************************
 
         // do time steps until next checkpoint is reached
         // while( l_t < l_checkPoints[c] ) {

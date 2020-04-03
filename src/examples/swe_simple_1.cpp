@@ -47,6 +47,29 @@
 using namespace precice;
 using namespace precice::constants;
 
+void snd_PreCICE(SolverInterface& interface, SWE_Block& l_wavePropgationBlock, int valueID,
+  double* valueP, int* vertexIDs, int sizeX, int sizeY) {
+
+  for(int i = 0; i < sizeX; i++){
+    valueP[i] = l_wavePropgationBlock.getWaterHeight().float2D2doublePointer()[sizeY * (sizeX)+(i)];
+  }
+
+  // // Debbugging
+  //  std::cout << "output1" << '\n';
+  //  for(int j = 0; j < l_nX +2 ; j++){
+  //     for(int i = 0; i < l_nY + 2; i++){
+  //       std::cout << l_wavePropgationBlock.getWaterHeight().float2D2doublePointer()[i*(l_nX+2)+(j)] << "\t";
+  //   }
+  //   std::cout <<"\n";
+  // }
+  //
+  //  std::cout << "output 2" << '\n';
+  //  for(int i = 0; i < l_nY +2; i++){
+  //    std::cout << height_db[i] << '\n';
+  //  }
+
+  interface.writeBlockScalarData(valueID, (sizeX), vertexIDs, valueP);
+}
 
 /**
  * Main program for the simulation on a single SWE_WavePropagationBlock.
@@ -205,30 +228,8 @@ int main( int argc, char** argv ) {
     //***************preCICE**************************
 
     //***************preCICE**************************
-      for(int i = 0; i < l_nX +2 ; i++){
-        height_db[i] = l_wavePropgationBlock.getWaterHeight().float2D2doublePointer()[l_nY * (l_nX+2)+(i)];
-        // hu_db[i] = l_wavePropgationBlock.getDischarge_hu().float2D2doublePointer()[l_nY * (l_nX+2)+(i)];
-        // hv_db[i] = l_wavePropgationBlock.getDischarge_hv().float2D2doublePointer()[l_nY * (l_nX+2)+(i)];
-      }
-
-     // // Debbugging
-     //  std::cout << "output1" << '\n';
-     //  for(int j = 0; j < l_nX +2 ; j++){
-     //     for(int i = 0; i < l_nY + 2; i++){
-     //       std::cout << l_wavePropgationBlock.getWaterHeight().float2D2doublePointer()[i*(l_nX+2)+(j)] << "\t";
-     //   }
-     //   std::cout <<"\n";
-     // }
-     //
-     //  std::cout << "output 2" << '\n';
-     //  for(int i = 0; i < l_nY +2; i++){
-     //    std::cout << height_db[i] << '\n';
-     //  }
-
-      interface.writeBlockScalarData(heightId, (l_nX+2), vertexIDs, height_db);
-      // interface.writeBlockScalarData(huId, (l_nX+2), vertexIDs, hu_db);
-      // interface.writeBlockScalarData(hvId, (l_nX+2), vertexIDs, hv_db);
-    //***************preCICE**************************
+    snd_PreCICE(interface, l_wavePropgationBlock, heightId, height_db, vertexIDs, l_nX+2, l_nY);
+    // //***************preCICE**************************
 
       // do time steps until next checkpoint is reached
       // while( l_t < l_checkPoints[c] ) {
