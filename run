@@ -2,4 +2,5 @@
 
 cd ~/thesis/SWE/build
 rm output/*
-./SWE_gnu_release_none_fwave -x 320 -y 320 -o output/testrun
+mpirun -n 16 ./SWE_gnu_release_mpi_fwavevec -x 100 -y 100 -o output/testrun -c 10
+cd ..

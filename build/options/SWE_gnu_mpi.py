@@ -28,9 +28,9 @@
 
 # Build options
 parallelization='mpi'
-solver='fwave'
+solver='fwavevec'
 #solver='augrie'
-writeNetCDF='yes'
+writeNetCDF='no'
 
 # Library paths (only required of not installed in default path)
 #netCDFDir=''
