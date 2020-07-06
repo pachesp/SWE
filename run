@@ -3,7 +3,7 @@
 cd ~/thesis/SWE/build
 rm  precice-Solver* reference.xml output/*
 
-size=60
+size=100
 
 if  [ $1 == "1" ];then
   ./SWE_gnu_debug_none_fwave_1 -x $size -y $size -o output/testrun1

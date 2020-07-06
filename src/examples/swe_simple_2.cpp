@@ -143,15 +143,10 @@ int main( int argc, char** argv ) {
   double* huS2_db = new double[l_nX + 2];
   double* hvS2_db = new double[l_nX + 2];
 
-  double* heightS2_db_CP = new double[l_nX + 2];
-  double* huS2_db_CP = new double[l_nX + 2];
-  double* hvS2_db_CP = new double[l_nX + 2];
-
   float time_CP;
 
   PreciceData preciceData{heightS2Id, huS2Id, hvS2Id, heightS2_db, huS2_db, hvS2_db,
                           heightS1Id, huS1Id, hvS1Id, heightS1_db, huS1_db, hvS1_db,
-                          heightS2_db_CP, huS2_db_CP, hvS2_db_CP,
                           vertexIDs};
   // *
   //***************preCICE**************************

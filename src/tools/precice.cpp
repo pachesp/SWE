@@ -25,7 +25,7 @@ void read_preCICE(SolverInterface &interface, SWE_Block &wavePropagationBlock,
     float* hv = doublePointer2floatPointer(data->recv_hv_db, size);
 
     // Data sent by left neighbour from precice
-    SWE_Block1D* newBlock = new SWE_Block1D{ h,hu,hv,1};
+    SWE_Block1D* newBlock = new SWE_Block1D{h, hu, hv, 1};
     ghoshtBlock->copyFrom(newBlock, size );
 
     if(newBlock) delete newBlock;
